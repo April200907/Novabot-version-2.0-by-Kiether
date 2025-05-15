@@ -1,7 +1,86 @@
-// Function to start the bot
+const fs = require("fs");
+const path = require("path");
+const express = require("express");
+const login = require("ws3-fca");
+const chalk = require("chalk");
+const scheduleTasks = require("./custom");
+
+const app = express();
+const PORT = process.env.PORT || 5000;
+
+global.commands = new Map();
+global.events = new Map();
+
+const log = {
+    info: (msg) => console.log(chalk.blue("[INFO]"), msg),
+    success: (msg) => console.log(chalk.green("[SUCCESS]"), msg),
+    error: (msg) => console.log(chalk.red("[ERROR]"), msg),
+    warn: (msg) => console.log(chalk.yellow("[WARN]"), msg),
+};
+
+const loadConfig = (filePath) => {
+    try {
+        if (!fs.existsSync(filePath)) {
+            log.error(`Missing ${filePath}!`);
+            process.exit(1);
+        }
+        return JSON.parse(fs.readFileSync(filePath));
+    } catch (error) {
+        log.error(`Failed to load ${filePath}: ${error.message}`);
+        process.exit(1);
+    }
+};
+
+const config = loadConfig("./config.json");
+const appState = loadConfig("./appState.json");
+const botPrefix = config.prefix || "/";
+const cooldowns = new Map();
+const detectedURLs = new Set();
+
+const loadCommands = () => {
+    try {
+        const files = fs.readdirSync("./cmds").filter(f => f.endsWith(".js"));
+        for (const file of files) {
+            const cmd = require(`./cmds/${file}`);
+            if (cmd.name && cmd.execute) {
+                global.commands.set(cmd.name, cmd);
+                log.success(`Loaded command: ${cmd.name}`);
+            }
+        }
+    } catch (err) {
+        log.error("Failed to load commands: " + err.message);
+    }
+};
+
+const loadEvents = () => {
+    try {
+        const files = fs.readdirSync("./events").filter(f => f.endsWith(".js"));
+        for (const file of files) {
+            const event = require(`./events/${file}`);
+            if (event.name && event.execute) {
+                global.events.set(event.name, event);
+                log.success(`Loaded event: ${event.name}`);
+            }
+        }
+    } catch (err) {
+        log.error("Failed to load events: " + err.message);
+    }
+};
+
+// Web UI
+app.use(express.static(path.join(__dirname, "public")));
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "public/index.html"));
+});
+app.listen(PORT, (err) => {
+    if (err) return log.error(`Failed to start server: ${err.message}`);
+    log.info(`Web server running at http://localhost:${PORT}`);
+});
+
+// Bot starter
 const startBot = () => {
     if (!appState || Object.keys(appState).length === 0) {
-        return log.error("Invalid or missing appState. Please make sure appState.json is loaded correctly.");
+        return log.error("Invalid or missing appState.");
     }
 
     login({ appState }, (err, api) => {
@@ -11,7 +90,7 @@ const startBot = () => {
 
         api.setOptions(config.option);
         global.api = api;
-        global.botID = api.getCurrentUserID(); // <-- This is the important line
+        global.botID = api.getCurrentUserID(); // <- Bot's UID
 
         console.clear();
         log.success("Bot is now online!");
@@ -29,6 +108,7 @@ const startBot = () => {
 
             const { body, threadID, senderID, type } = event;
 
+            // Trigger events
             if (global.events.has(type)) {
                 try {
                     await global.events.get(type).execute({ api, event });
@@ -37,6 +117,7 @@ const startBot = () => {
                 }
             }
 
+            // URL detection
             const urlRegex = /(https?:\/\/[^\s]+)/gi;
             if (body && urlRegex.test(body)) {
                 const urlCommand = global.commands.get("url");
@@ -54,6 +135,7 @@ const startBot = () => {
                 }
             }
 
+            // Command handling
             if (body) {
                 let args = body.trim().split(/ +/);
                 let commandName = args.shift().toLowerCase();
@@ -90,9 +172,15 @@ const startBot = () => {
             }
         });
 
+        // Scheduled tasks
         scheduleTasks(config.ownerID, api, {
             autoRestart: true,
             autoGreet: true
         });
     });
 };
+
+// Load everything
+loadEvents();
+loadCommands();
+startBot();
