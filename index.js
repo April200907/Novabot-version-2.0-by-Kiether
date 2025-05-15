@@ -6,174 +6,193 @@ const chalk = require("chalk");
 const scheduleTasks = require("./custom");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 5000;  // Change to 5000 to avoid conflicts with 4000
+
+// Initialize global command and event maps
+global.commands = new Map();
+global.events = new Map();
 
 // Logging helper
 const log = {
-    info: (msg) => console.log(chalk.blue("[INFO]"), msg),
-    success: (msg) => console.log(chalk.green("[SUCCESS]"), msg),
-    error: (msg) => console.log(chalk.red("[ERROR]"), msg),
-    warn: (msg) => console.log(chalk.yellow("[WARN]"), msg),
+    info: (msg) => console.log(chalk.blue("[INFO]"), msg),
+    success: (msg) => console.log(chalk.green("[SUCCESS]"), msg),
+    error: (msg) => console.log(chalk.red("[ERROR]"), msg),
+    warn: (msg) => console.log(chalk.yellow("[WARN]"), msg),
 };
 
+// Function to load configuration files
 const loadConfig = (filePath) => {
-    try {
-        if (!fs.existsSync(filePath)) {
-            log.error(`Missing ${filePath}!`);
-            process.exit(1);
-        }
-        return JSON.parse(fs.readFileSync(filePath));
-    } catch (error) {
-        log.error(`Failed to load ${filePath}: ${error.message}`);
-        process.exit(1);
-    }
+    try {
+        if (!fs.existsSync(filePath)) {
+            log.error(`Missing ${filePath}!`);
+            process.exit(1);
+        }
+        return JSON.parse(fs.readFileSync(filePath));
+    } catch (error) {
+        log.error(`Failed to load ${filePath}: ${error.message}`);
+        process.exit(1);
+    }
 };
 
+// Load config and appState
 const config = loadConfig("./config.json");
 const appState = loadConfig("./appState.json");
 const botPrefix = config.prefix || "/";
 const cooldowns = new Map();
 const detectedURLs = new Set();
 
-// Global handlers
-global.commands = new Map();
-global.events = new Map();
-
+// Function to load commands
 const loadCommands = () => {
-    try {
-        const files = fs.readdirSync("./cmds").filter(f => f.endsWith(".js"));
-        for (const file of files) {
-            const cmd = require(`./cmds/${file}`);
-            if (cmd.name && cmd.execute) {
-                global.commands.set(cmd.name, cmd);
-                log.success(`Loaded command: ${cmd.name}`);
-            }
-        }
-    } catch (err) {
-        log.error("Failed to load commands: " + err.message);
-    }
+    try {
+        const files = fs.readdirSync("./cmds").filter(f => f.endsWith(".js"));
+        for (const file of files) {
+            const cmd = require(`./cmds/${file}`);
+            if (cmd.name && cmd.execute) {
+                global.commands.set(cmd.name, cmd);
+                log.success(`Loaded command: ${cmd.name}`);
+            }
+        }
+    } catch (err) {
+        log.error("Failed to load commands: " + err.message);
+    }
 };
 
+// Function to load events
 const loadEvents = () => {
-    try {
-        const files = fs.readdirSync("./events").filter(f => f.endsWith(".js"));
-        for (const file of files) {
-            const event = require(`./events/${file}`);
-            if (event.name && event.execute) {
-                global.events.set(event.name, event);
-                log.success(`Loaded event: ${event.name}`);
-            }
-        }
-    } catch (err) {
-        log.error("Failed to load events: " + err.message);
-    }
+    try {
+        const files = fs.readdirSync("./events").filter(f => f.endsWith(".js"));
+        for (const file of files) {
+            const event = require(`./events/${file}`);
+            if (event.name && event.execute) {
+                global.events.set(event.name, event);
+                log.success(`Loaded event: ${event.name}`);
+            }
+        }
+    } catch (err) {
+        log.error("Failed to load events: " + err.message);
+    }
 };
 
-// Web UI
+// Web UI setup
 app.use(express.static(path.join(__dirname, "public")));
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "public/index.html"));
-});
-app.listen(PORT, () => {
-    log.info(`Web server running at http://localhost:${PORT}`);
+    res.sendFile(path.join(__dirname, "public/index.html"));
 });
 
+// Start the web server and add error handling
+app.listen(PORT, (err) => {
+    if (err) {
+        log.error(`Failed to start server: ${err.message}`);
+        return;
+    }
+    log.info(`Web server running at http://localhost:${PORT}`);
+});
+
+// Function to start the bot
 const startBot = () => {
-    login({ appState }, (err, api) => {
-        if (err) {
-            return log.error("Login failed: " + err.error || err);
-        }
+    // Check if appState is valid
+    if (!appState || Object.keys(appState).length === 0) {
+        return log.error("Invalid or missing appState. Please make sure appState.json is loaded correctly.");
+    }
 
-        api.setOptions(config.option);
-        console.clear();
-        log.success("Bot is now online!");
-        api.sendMessage("🤖 Bot started successfully!", config.ownerID);
+    // Login to Facebook
+    login({ appState }, (err, api) => {
+        if (err) {
+            return log.error("Login failed: " + (err.error || err.message));
+        }
 
-        // Event onStart hook
-        global.events.forEach(evt => {
-            if (evt.onStart) evt.onStart(api);
-        });
+        api.setOptions(config.option);
+        console.clear();
+        log.success("Bot is now online!");
+        api.sendMessage("🤖 Bot started successfully!", config.ownerID);
 
-        api.listenMqtt(async (err, event) => {
-            if (err) {
-                log.error("Event listen error: " + err.message);
-                return api.sendMessage("❌ Listening error!", config.ownerID);
-            }
+        // Event onStart hook
+        global.events.forEach(evt => {
+            if (evt.onStart) evt.onStart(api);
+        });
 
-            const { body, threadID, senderID, type } = event;
+        // Listen for incoming messages
+        api.listenMqtt(async (err, event) => {
+            if (err) {
+                log.error("Event listen error: " + err.message);
+                return api.sendMessage("❌ Listening error!", config.ownerID);
+            }
 
-            // Call matching event
-            if (global.events.has(type)) {
-                try {
-                    await global.events.get(type).execute({ api, event });
-                } catch (e) {
-                    log.error(`Event '${type}' failed: ${e.message}`);
-                }
-            }
+            const { body, threadID, senderID, type } = event;
 
-            // URL Auto Trigger
-            const urlRegex = /(https?:\/\/[^\s]+)/gi;
-            if (body && urlRegex.test(body)) {
-                const urlCommand = global.commands.get("url");
-                if (urlCommand) {
-                    const url = body.match(urlRegex)[0];
-                    const key = `${threadID}-${url}`;
-                    if (detectedURLs.has(key)) return;
-                    detectedURLs.add(key);
-                    try {
-                        await urlCommand.execute({ api, event });
-                    } catch (err) {
-                        log.warn("URL command error: " + err.message);
-                    }
-                    setTimeout(() => detectedURLs.delete(key), 3600000);
-                }
-            }
+            // Handle matching events
+            if (global.events.has(type)) {
+                try {
+                    await global.events.get(type).execute({ api, event });
+                } catch (e) {
+                    log.error(`Event '${type}' failed: ${e.message}`);
+                }
+            }
 
-            // Command Handler
-            if (body) {
-                let args = body.trim().split(/ +/);
-                let commandName = args.shift().toLowerCase();
-                if (body.startsWith(botPrefix)) {
-                    commandName = body.slice(botPrefix.length).split(/ +/).shift().toLowerCase();
-                }
+            // URL Auto Trigger
+            const urlRegex = /(https?:\/\/[^\s]+)/gi;
+            if (body && urlRegex.test(body)) {
+                const urlCommand = global.commands.get("url");
+                if (urlCommand) {
+                    const url = body.match(urlRegex)[0];
+                    const key = `${threadID}-${url}`;
+                    if (detectedURLs.has(key)) return;
+                    detectedURLs.add(key);
+                    try {
+                        await urlCommand.execute({ api, event });
+                    } catch (err) {
+                        log.warn("URL command error: " + err.message);
+                    }
+                    setTimeout(() => detectedURLs.delete(key), 3600000);
+                }
+            }
 
-                const command = global.commands.get(commandName);
-                if (!command) return;
+            // Command Handler
+            if (body) {
+                let args = body.trim().split(/ +/);
+                let commandName = args.shift().toLowerCase();
+                if (body.startsWith(botPrefix)) {
+                    commandName = body.slice(botPrefix.length).split(/ +/).shift().toLowerCase();
+                }
 
-                if (command.usePrefix && !body.startsWith(botPrefix)) return;
+                const command = global.commands.get(commandName);
+                if (!command) return;
 
-                if (command.admin && senderID !== config.ownerID) {
-                    return api.sendMessage("❌ Only the bot owner can use this command.", threadID);
-                }
+                if (command.usePrefix && !body.startsWith(botPrefix)) return;
 
-                const now = Date.now();
-                const key = `${senderID}-${command.name}`;
-                const cooldown = (command.cooldown || 0) * 1000;
-                const last = cooldowns.get(key) || 0;
+                if (command.admin && senderID !== config.ownerID) {
+                    return api.sendMessage("❌ Only the bot owner can use this command.", threadID);
+                }
 
-                if (now - last < cooldown) {
-                    const wait = ((cooldown - (now - last)) / 1000).toFixed(1);
-                    return api.sendMessage(`⏳ Please wait ${wait}s before using '${command.name}' again.`, threadID);
-                }
+                const now = Date.now();
+                const key = `${senderID}-${command.name}`;
+                const cooldown = (command.cooldown || 0) * 1000;
+                const last = cooldowns.get(key) || 0;
 
-                try {
-                    await command.execute({ api, event, args });
-                    cooldowns.set(key, now);
-                } catch (err) {
-                    log.error(`Command '${command.name}' error: ${err.message}`);
-                    api.sendMessage("❌ An error occurred while executing command.", threadID);
-                }
-            }
-        });
+                if (now - last < cooldown) {
+                    const wait = ((cooldown - (now - last)) / 1000).toFixed(1);
+                    return api.sendMessage(`⏳ Please wait ${wait}s before using '${command.name}' again.`, threadID);
+                }
 
-        scheduleTasks(config.ownerID, api, {
-            autoRestart: true,
-            autoGreet: true
-        });
-    });
+                try {
+                    await command.execute({ api, event, args });
+                    cooldowns.set(key, now);
+                } catch (err) {
+                    log.error(`Command '${command.name}' error: ${err.message}`);
+                    api.sendMessage("❌ An error occurred while executing command.", threadID);
+                }
+            }
+        });
+
+        // Schedule tasks (auto-restart, auto-greet, etc.)
+        scheduleTasks(config.ownerID, api, {
+            autoRestart: true,
+            autoGreet: true
+        });
+    });
 };
 
-// Load and start
+// Load events, commands, and start the bot
 loadEvents();
 loadCommands();
 startBot();
