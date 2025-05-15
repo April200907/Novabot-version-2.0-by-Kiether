@@ -10,6 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 global.commands = new Map();
 global.events = new Map();
+global.botID = api.getCurrentUserID();
 
 const log = {
     info: (msg) => console.log(chalk.blue("[INFO]"), msg),
