@@ -1,7 +1,7 @@
 module.exports = {
   name: "leavegc",
-  version: "1.1",
-  description: "Leave a group from the list of joined groups",
+  version: "1.0",
+  description: "Leave a group from the list of joined groups.",
   usePrefix: true,
   admin: true,
 
@@ -9,40 +9,38 @@ module.exports = {
     const { threadID, messageID } = event;
 
     try {
-      // Fetch all threads (pagination)
+      // Fetch all threads
       let threads = [];
       let timestamp = null;
       let batch = [];
 
       do {
-        batch = await api.getThreadList(20, timestamp, ["INBOX"]);
+        batch = await api.getThreadList(20, timestamp, null);
         threads = threads.concat(batch);
         if (batch.length > 0) {
           timestamp = batch[batch.length - 1].timestamp;
         }
       } while (batch.length > 0);
 
-      // Filter valid groups (with name + threadID)
-      const groups = threads.filter(t => t.isGroup && t.threadID && t.name);
+      // Include all group threads, even those with no name
+      const groups = threads.filter(t => t.isGroup && t.threadID);
 
-      if (groups.length === 0) {
-        return api.sendMessage("⚠️ No group chats found.", threadID, messageID);
-      }
-
-      // Show group list if no argument
       if (!args[0]) {
+        if (groups.length === 0) {
+          return api.sendMessage("⚠️ No group chats found.", threadID, messageID);
+        }
+
         const list = groups
-          .map((group, index) => `${index + 1}. ${group.name} (${group.threadID})`)
+          .map((g, i) => `${i + 1}. ${g.name || "Unnamed Group"} (${g.threadID})`)
           .join("\n");
 
         return api.sendMessage(
-          `📋 Joined Group List:\n\n${list}\n\nTo leave a group, reply with:\nleavegc <number>`,
+          `📋 Group Chats Joined:\n\n${list}\n\nReply with:\nleavegc <number>\nto leave a group.`,
           threadID,
           messageID
         );
       }
 
-      // Parse and validate group index
       const index = parseInt(args[0]) - 1;
       if (isNaN(index) || index < 0 || index >= groups.length) {
         return api.sendMessage("⚠️ Invalid group number.", threadID, messageID);
@@ -50,15 +48,12 @@ module.exports = {
 
       const targetGroup = groups[index];
 
-      // Safely get bot's own ID (recommended)
-      const botID = global.botID || api.getCurrentUserID();
+      await api.removeUserFromGroup(global.botID, targetGroup.threadID);
 
-      await api.removeUserFromGroup(botID, targetGroup.threadID);
-
-      return api.sendMessage(`✅ Successfully left the group "${targetGroup.name}".`, threadID, messageID);
+      api.sendMessage(`✅ Successfully left the group "${targetGroup.name || "Unnamed Group"}".`, threadID, messageID);
     } catch (err) {
-      console.error("❌ LeaveGC command error:", err);
-      return api.sendMessage("❌ An error occurred while executing the command.", threadID, messageID);
+      console.error("LeaveGC Error:", err);
+      api.sendMessage("❌ Failed to leave the group. The bot may not have permission or isn't in the group.", threadID, messageID);
     }
   }
 };
