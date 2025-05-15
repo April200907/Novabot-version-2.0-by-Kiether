@@ -1,0 +1,24 @@
+{
+  "name": "mybot",
+  "version": "1.0.0",
+  "description": "Simple Facebook Messenger bot using ws3-fca",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@xaviabot/fb-downloader": "^1.0.14",
+    "axios": "^1.8.3",
+    "express": "^4.21.2",
+    "fs-extra": "^11.3.0",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "node-schedule": "^2.1.1",
+    "npmlog": "^7.0.1",
+    "pidusage": "^4.0.0",
+    "streamifier": "^0.1.1",
+    "ws3-fca": "^1.0.47"
+  }
+}
