@@ -1,1 +1,5059 @@
-
+{
+    "hoy": [
+        "Hoy karin, gago ka",
+        "Tanga ka ba?",
+        "Gago ka ba ha?",
+        "Hoy din, anong ambag mo?",
+        "Sinong tinatawag mong hoy, ha?"
+    ],
+    "miss ko na sya": [
+        "Di ka namimiss non gago",
+        "Wag kang umasang nami miss ka nya",
+        "Kung mahal ka niya, edi sana kayo pa",
+        "Tigilan mo na yan, self-respect please",
+        "Nag-miss ka pa, eh di ka nga kilala"
+    ],
+    "wala akong kausap": [
+        "Eh kasi wala talagang gusto sayo",
+        "Tanggapin mo na lang, masarap mag-isa",
+        "Baka naman kasi ang toxic mo",
+        "Try mo kausapin sarili mo, baka mas okay pa yun"
+    ],
+    "bakit ang sakit?": [
+        "Kasi tanga ka pa rin",
+        "Kasi umaasa ka pa",
+        "Ganyan talaga pag hindi mutual",
+        "Lesson yan, hindi love story",
+        "Mas masakit pa dyan kuryente"
+    ],
+    "tangina mo": [
+        "Tangina mo rin gago",
+        "Mas tangina ka",
+        "Huwag mo kong mumurahin, baka umiyak ka",
+        "Oo, ako nga. May reklamo?"
+    ],
+    "gago ka": [
+        "Salamat, ikaw rin",
+        "Mas gago ka kaya",
+        "Gago? Baka tadhana lang yan",
+        "Ganyan ka nalang palagi, walang growth"
+    ],
+    "iniwan niya ako": [
+        "Eh kasi hindi ka worth it",
+        "Siguro sawa na siya sayo",
+        "Ganun talaga, panget ka kasi",
+        "Tanggapin mo, hindi lahat ng gusto natin makukuha natin"
+    ],
+    "single ako": [
+        "Buti nga sayo",
+        "Walang may gusto sayo",
+        "Single? More like unwanted",
+        "Magdasal ka nalang"
+    ],
+    "wala akong jowa": [
+        "Eh di maghanap ka",
+        "Pangit ka kasi",
+        "Ayaw sayo ng tadhana",
+        "Wala na ngang jowa, pabigat pa"
+    ],
+    "trigger message 0": [
+        "savage reply 0-1",
+        "savage reply 0-2",
+        "savage reply 0-3"
+    ],
+    "trigger message 1": [
+        "savage reply 1-1",
+        "savage reply 1-2",
+        "savage reply 1-3"
+    ],
+    "trigger message 2": [
+        "savage reply 2-1",
+        "savage reply 2-2",
+        "savage reply 2-3"
+    ],
+    "trigger message 3": [
+        "savage reply 3-1",
+        "savage reply 3-2",
+        "savage reply 3-3"
+    ],
+    "trigger message 4": [
+        "savage reply 4-1",
+        "savage reply 4-2",
+        "savage reply 4-3"
+    ],
+    "trigger message 5": [
+        "savage reply 5-1",
+        "savage reply 5-2",
+        "savage reply 5-3"
+    ],
+    "trigger message 6": [
+        "savage reply 6-1",
+        "savage reply 6-2",
+        "savage reply 6-3"
+    ],
+    "trigger message 7": [
+        "savage reply 7-1",
+        "savage reply 7-2",
+        "savage reply 7-3"
+    ],
+    "trigger message 8": [
+        "savage reply 8-1",
+        "savage reply 8-2",
+        "savage reply 8-3"
+    ],
+    "trigger message 9": [
+        "savage reply 9-1",
+        "savage reply 9-2",
+        "savage reply 9-3"
+    ],
+    "trigger message 10": [
+        "savage reply 10-1",
+        "savage reply 10-2",
+        "savage reply 10-3"
+    ],
+    "trigger message 11": [
+        "savage reply 11-1",
+        "savage reply 11-2",
+        "savage reply 11-3"
+    ],
+    "trigger message 12": [
+        "savage reply 12-1",
+        "savage reply 12-2",
+        "savage reply 12-3"
+    ],
+    "trigger message 13": [
+        "savage reply 13-1",
+        "savage reply 13-2",
+        "savage reply 13-3"
+    ],
+    "trigger message 14": [
+        "savage reply 14-1",
+        "savage reply 14-2",
+        "savage reply 14-3"
+    ],
+    "trigger message 15": [
+        "savage reply 15-1",
+        "savage reply 15-2",
+        "savage reply 15-3"
+    ],
+    "trigger message 16": [
+        "savage reply 16-1",
+        "savage reply 16-2",
+        "savage reply 16-3"
+    ],
+    "trigger message 17": [
+        "savage reply 17-1",
+        "savage reply 17-2",
+        "savage reply 17-3"
+    ],
+    "trigger message 18": [
+        "savage reply 18-1",
+        "savage reply 18-2",
+        "savage reply 18-3"
+    ],
+    "trigger message 19": [
+        "savage reply 19-1",
+        "savage reply 19-2",
+        "savage reply 19-3"
+    ],
+    "trigger message 20": [
+        "savage reply 20-1",
+        "savage reply 20-2",
+        "savage reply 20-3"
+    ],
+    "trigger message 21": [
+        "savage reply 21-1",
+        "savage reply 21-2",
+        "savage reply 21-3"
+    ],
+    "trigger message 22": [
+        "savage reply 22-1",
+        "savage reply 22-2",
+        "savage reply 22-3"
+    ],
+    "trigger message 23": [
+        "savage reply 23-1",
+        "savage reply 23-2",
+        "savage reply 23-3"
+    ],
+    "trigger message 24": [
+        "savage reply 24-1",
+        "savage reply 24-2",
+        "savage reply 24-3"
+    ],
+    "trigger message 25": [
+        "savage reply 25-1",
+        "savage reply 25-2",
+        "savage reply 25-3"
+    ],
+    "trigger message 26": [
+        "savage reply 26-1",
+        "savage reply 26-2",
+        "savage reply 26-3"
+    ],
+    "trigger message 27": [
+        "savage reply 27-1",
+        "savage reply 27-2",
+        "savage reply 27-3"
+    ],
+    "trigger message 28": [
+        "savage reply 28-1",
+        "savage reply 28-2",
+        "savage reply 28-3"
+    ],
+    "trigger message 29": [
+        "savage reply 29-1",
+        "savage reply 29-2",
+        "savage reply 29-3"
+    ],
+    "trigger message 30": [
+        "savage reply 30-1",
+        "savage reply 30-2",
+        "savage reply 30-3"
+    ],
+    "trigger message 31": [
+        "savage reply 31-1",
+        "savage reply 31-2",
+        "savage reply 31-3"
+    ],
+    "trigger message 32": [
+        "savage reply 32-1",
+        "savage reply 32-2",
+        "savage reply 32-3"
+    ],
+    "trigger message 33": [
+        "savage reply 33-1",
+        "savage reply 33-2",
+        "savage reply 33-3"
+    ],
+    "trigger message 34": [
+        "savage reply 34-1",
+        "savage reply 34-2",
+        "savage reply 34-3"
+    ],
+    "trigger message 35": [
+        "savage reply 35-1",
+        "savage reply 35-2",
+        "savage reply 35-3"
+    ],
+    "trigger message 36": [
+        "savage reply 36-1",
+        "savage reply 36-2",
+        "savage reply 36-3"
+    ],
+    "trigger message 37": [
+        "savage reply 37-1",
+        "savage reply 37-2",
+        "savage reply 37-3"
+    ],
+    "trigger message 38": [
+        "savage reply 38-1",
+        "savage reply 38-2",
+        "savage reply 38-3"
+    ],
+    "trigger message 39": [
+        "savage reply 39-1",
+        "savage reply 39-2",
+        "savage reply 39-3"
+    ],
+    "trigger message 40": [
+        "savage reply 40-1",
+        "savage reply 40-2",
+        "savage reply 40-3"
+    ],
+    "trigger message 41": [
+        "savage reply 41-1",
+        "savage reply 41-2",
+        "savage reply 41-3"
+    ],
+    "trigger message 42": [
+        "savage reply 42-1",
+        "savage reply 42-2",
+        "savage reply 42-3"
+    ],
+    "trigger message 43": [
+        "savage reply 43-1",
+        "savage reply 43-2",
+        "savage reply 43-3"
+    ],
+    "trigger message 44": [
+        "savage reply 44-1",
+        "savage reply 44-2",
+        "savage reply 44-3"
+    ],
+    "trigger message 45": [
+        "savage reply 45-1",
+        "savage reply 45-2",
+        "savage reply 45-3"
+    ],
+    "trigger message 46": [
+        "savage reply 46-1",
+        "savage reply 46-2",
+        "savage reply 46-3"
+    ],
+    "trigger message 47": [
+        "savage reply 47-1",
+        "savage reply 47-2",
+        "savage reply 47-3"
+    ],
+    "trigger message 48": [
+        "savage reply 48-1",
+        "savage reply 48-2",
+        "savage reply 48-3"
+    ],
+    "trigger message 49": [
+        "savage reply 49-1",
+        "savage reply 49-2",
+        "savage reply 49-3"
+    ],
+    "trigger message 50": [
+        "savage reply 50-1",
+        "savage reply 50-2",
+        "savage reply 50-3"
+    ],
+    "trigger message 51": [
+        "savage reply 51-1",
+        "savage reply 51-2",
+        "savage reply 51-3"
+    ],
+    "trigger message 52": [
+        "savage reply 52-1",
+        "savage reply 52-2",
+        "savage reply 52-3"
+    ],
+    "trigger message 53": [
+        "savage reply 53-1",
+        "savage reply 53-2",
+        "savage reply 53-3"
+    ],
+    "trigger message 54": [
+        "savage reply 54-1",
+        "savage reply 54-2",
+        "savage reply 54-3"
+    ],
+    "trigger message 55": [
+        "savage reply 55-1",
+        "savage reply 55-2",
+        "savage reply 55-3"
+    ],
+    "trigger message 56": [
+        "savage reply 56-1",
+        "savage reply 56-2",
+        "savage reply 56-3"
+    ],
+    "trigger message 57": [
+        "savage reply 57-1",
+        "savage reply 57-2",
+        "savage reply 57-3"
+    ],
+    "trigger message 58": [
+        "savage reply 58-1",
+        "savage reply 58-2",
+        "savage reply 58-3"
+    ],
+    "trigger message 59": [
+        "savage reply 59-1",
+        "savage reply 59-2",
+        "savage reply 59-3"
+    ],
+    "trigger message 60": [
+        "savage reply 60-1",
+        "savage reply 60-2",
+        "savage reply 60-3"
+    ],
+    "trigger message 61": [
+        "savage reply 61-1",
+        "savage reply 61-2",
+        "savage reply 61-3"
+    ],
+    "trigger message 62": [
+        "savage reply 62-1",
+        "savage reply 62-2",
+        "savage reply 62-3"
+    ],
+    "trigger message 63": [
+        "savage reply 63-1",
+        "savage reply 63-2",
+        "savage reply 63-3"
+    ],
+    "trigger message 64": [
+        "savage reply 64-1",
+        "savage reply 64-2",
+        "savage reply 64-3"
+    ],
+    "trigger message 65": [
+        "savage reply 65-1",
+        "savage reply 65-2",
+        "savage reply 65-3"
+    ],
+    "trigger message 66": [
+        "savage reply 66-1",
+        "savage reply 66-2",
+        "savage reply 66-3"
+    ],
+    "trigger message 67": [
+        "savage reply 67-1",
+        "savage reply 67-2",
+        "savage reply 67-3"
+    ],
+    "trigger message 68": [
+        "savage reply 68-1",
+        "savage reply 68-2",
+        "savage reply 68-3"
+    ],
+    "trigger message 69": [
+        "savage reply 69-1",
+        "savage reply 69-2",
+        "savage reply 69-3"
+    ],
+    "trigger message 70": [
+        "savage reply 70-1",
+        "savage reply 70-2",
+        "savage reply 70-3"
+    ],
+    "trigger message 71": [
+        "savage reply 71-1",
+        "savage reply 71-2",
+        "savage reply 71-3"
+    ],
+    "trigger message 72": [
+        "savage reply 72-1",
+        "savage reply 72-2",
+        "savage reply 72-3"
+    ],
+    "trigger message 73": [
+        "savage reply 73-1",
+        "savage reply 73-2",
+        "savage reply 73-3"
+    ],
+    "trigger message 74": [
+        "savage reply 74-1",
+        "savage reply 74-2",
+        "savage reply 74-3"
+    ],
+    "trigger message 75": [
+        "savage reply 75-1",
+        "savage reply 75-2",
+        "savage reply 75-3"
+    ],
+    "trigger message 76": [
+        "savage reply 76-1",
+        "savage reply 76-2",
+        "savage reply 76-3"
+    ],
+    "trigger message 77": [
+        "savage reply 77-1",
+        "savage reply 77-2",
+        "savage reply 77-3"
+    ],
+    "trigger message 78": [
+        "savage reply 78-1",
+        "savage reply 78-2",
+        "savage reply 78-3"
+    ],
+    "trigger message 79": [
+        "savage reply 79-1",
+        "savage reply 79-2",
+        "savage reply 79-3"
+    ],
+    "trigger message 80": [
+        "savage reply 80-1",
+        "savage reply 80-2",
+        "savage reply 80-3"
+    ],
+    "trigger message 81": [
+        "savage reply 81-1",
+        "savage reply 81-2",
+        "savage reply 81-3"
+    ],
+    "trigger message 82": [
+        "savage reply 82-1",
+        "savage reply 82-2",
+        "savage reply 82-3"
+    ],
+    "trigger message 83": [
+        "savage reply 83-1",
+        "savage reply 83-2",
+        "savage reply 83-3"
+    ],
+    "trigger message 84": [
+        "savage reply 84-1",
+        "savage reply 84-2",
+        "savage reply 84-3"
+    ],
+    "trigger message 85": [
+        "savage reply 85-1",
+        "savage reply 85-2",
+        "savage reply 85-3"
+    ],
+    "trigger message 86": [
+        "savage reply 86-1",
+        "savage reply 86-2",
+        "savage reply 86-3"
+    ],
+    "trigger message 87": [
+        "savage reply 87-1",
+        "savage reply 87-2",
+        "savage reply 87-3"
+    ],
+    "trigger message 88": [
+        "savage reply 88-1",
+        "savage reply 88-2",
+        "savage reply 88-3"
+    ],
+    "trigger message 89": [
+        "savage reply 89-1",
+        "savage reply 89-2",
+        "savage reply 89-3"
+    ],
+    "trigger message 90": [
+        "savage reply 90-1",
+        "savage reply 90-2",
+        "savage reply 90-3"
+    ],
+    "trigger message 91": [
+        "savage reply 91-1",
+        "savage reply 91-2",
+        "savage reply 91-3"
+    ],
+    "trigger message 92": [
+        "savage reply 92-1",
+        "savage reply 92-2",
+        "savage reply 92-3"
+    ],
+    "trigger message 93": [
+        "savage reply 93-1",
+        "savage reply 93-2",
+        "savage reply 93-3"
+    ],
+    "trigger message 94": [
+        "savage reply 94-1",
+        "savage reply 94-2",
+        "savage reply 94-3"
+    ],
+    "trigger message 95": [
+        "savage reply 95-1",
+        "savage reply 95-2",
+        "savage reply 95-3"
+    ],
+    "trigger message 96": [
+        "savage reply 96-1",
+        "savage reply 96-2",
+        "savage reply 96-3"
+    ],
+    "trigger message 97": [
+        "savage reply 97-1",
+        "savage reply 97-2",
+        "savage reply 97-3"
+    ],
+    "trigger message 98": [
+        "savage reply 98-1",
+        "savage reply 98-2",
+        "savage reply 98-3"
+    ],
+    "trigger message 99": [
+        "savage reply 99-1",
+        "savage reply 99-2",
+        "savage reply 99-3"
+    ],
+    "trigger message 100": [
+        "savage reply 100-1",
+        "savage reply 100-2",
+        "savage reply 100-3"
+    ],
+    "trigger message 101": [
+        "savage reply 101-1",
+        "savage reply 101-2",
+        "savage reply 101-3"
+    ],
+    "trigger message 102": [
+        "savage reply 102-1",
+        "savage reply 102-2",
+        "savage reply 102-3"
+    ],
+    "trigger message 103": [
+        "savage reply 103-1",
+        "savage reply 103-2",
+        "savage reply 103-3"
+    ],
+    "trigger message 104": [
+        "savage reply 104-1",
+        "savage reply 104-2",
+        "savage reply 104-3"
+    ],
+    "trigger message 105": [
+        "savage reply 105-1",
+        "savage reply 105-2",
+        "savage reply 105-3"
+    ],
+    "trigger message 106": [
+        "savage reply 106-1",
+        "savage reply 106-2",
+        "savage reply 106-3"
+    ],
+    "trigger message 107": [
+        "savage reply 107-1",
+        "savage reply 107-2",
+        "savage reply 107-3"
+    ],
+    "trigger message 108": [
+        "savage reply 108-1",
+        "savage reply 108-2",
+        "savage reply 108-3"
+    ],
+    "trigger message 109": [
+        "savage reply 109-1",
+        "savage reply 109-2",
+        "savage reply 109-3"
+    ],
+    "trigger message 110": [
+        "savage reply 110-1",
+        "savage reply 110-2",
+        "savage reply 110-3"
+    ],
+    "trigger message 111": [
+        "savage reply 111-1",
+        "savage reply 111-2",
+        "savage reply 111-3"
+    ],
+    "trigger message 112": [
+        "savage reply 112-1",
+        "savage reply 112-2",
+        "savage reply 112-3"
+    ],
+    "trigger message 113": [
+        "savage reply 113-1",
+        "savage reply 113-2",
+        "savage reply 113-3"
+    ],
+    "trigger message 114": [
+        "savage reply 114-1",
+        "savage reply 114-2",
+        "savage reply 114-3"
+    ],
+    "trigger message 115": [
+        "savage reply 115-1",
+        "savage reply 115-2",
+        "savage reply 115-3"
+    ],
+    "trigger message 116": [
+        "savage reply 116-1",
+        "savage reply 116-2",
+        "savage reply 116-3"
+    ],
+    "trigger message 117": [
+        "savage reply 117-1",
+        "savage reply 117-2",
+        "savage reply 117-3"
+    ],
+    "trigger message 118": [
+        "savage reply 118-1",
+        "savage reply 118-2",
+        "savage reply 118-3"
+    ],
+    "trigger message 119": [
+        "savage reply 119-1",
+        "savage reply 119-2",
+        "savage reply 119-3"
+    ],
+    "trigger message 120": [
+        "savage reply 120-1",
+        "savage reply 120-2",
+        "savage reply 120-3"
+    ],
+    "trigger message 121": [
+        "savage reply 121-1",
+        "savage reply 121-2",
+        "savage reply 121-3"
+    ],
+    "trigger message 122": [
+        "savage reply 122-1",
+        "savage reply 122-2",
+        "savage reply 122-3"
+    ],
+    "trigger message 123": [
+        "savage reply 123-1",
+        "savage reply 123-2",
+        "savage reply 123-3"
+    ],
+    "trigger message 124": [
+        "savage reply 124-1",
+        "savage reply 124-2",
+        "savage reply 124-3"
+    ],
+    "trigger message 125": [
+        "savage reply 125-1",
+        "savage reply 125-2",
+        "savage reply 125-3"
+    ],
+    "trigger message 126": [
+        "savage reply 126-1",
+        "savage reply 126-2",
+        "savage reply 126-3"
+    ],
+    "trigger message 127": [
+        "savage reply 127-1",
+        "savage reply 127-2",
+        "savage reply 127-3"
+    ],
+    "trigger message 128": [
+        "savage reply 128-1",
+        "savage reply 128-2",
+        "savage reply 128-3"
+    ],
+    "trigger message 129": [
+        "savage reply 129-1",
+        "savage reply 129-2",
+        "savage reply 129-3"
+    ],
+    "trigger message 130": [
+        "savage reply 130-1",
+        "savage reply 130-2",
+        "savage reply 130-3"
+    ],
+    "trigger message 131": [
+        "savage reply 131-1",
+        "savage reply 131-2",
+        "savage reply 131-3"
+    ],
+    "trigger message 132": [
+        "savage reply 132-1",
+        "savage reply 132-2",
+        "savage reply 132-3"
+    ],
+    "trigger message 133": [
+        "savage reply 133-1",
+        "savage reply 133-2",
+        "savage reply 133-3"
+    ],
+    "trigger message 134": [
+        "savage reply 134-1",
+        "savage reply 134-2",
+        "savage reply 134-3"
+    ],
+    "trigger message 135": [
+        "savage reply 135-1",
+        "savage reply 135-2",
+        "savage reply 135-3"
+    ],
+    "trigger message 136": [
+        "savage reply 136-1",
+        "savage reply 136-2",
+        "savage reply 136-3"
+    ],
+    "trigger message 137": [
+        "savage reply 137-1",
+        "savage reply 137-2",
+        "savage reply 137-3"
+    ],
+    "trigger message 138": [
+        "savage reply 138-1",
+        "savage reply 138-2",
+        "savage reply 138-3"
+    ],
+    "trigger message 139": [
+        "savage reply 139-1",
+        "savage reply 139-2",
+        "savage reply 139-3"
+    ],
+    "trigger message 140": [
+        "savage reply 140-1",
+        "savage reply 140-2",
+        "savage reply 140-3"
+    ],
+    "trigger message 141": [
+        "savage reply 141-1",
+        "savage reply 141-2",
+        "savage reply 141-3"
+    ],
+    "trigger message 142": [
+        "savage reply 142-1",
+        "savage reply 142-2",
+        "savage reply 142-3"
+    ],
+    "trigger message 143": [
+        "savage reply 143-1",
+        "savage reply 143-2",
+        "savage reply 143-3"
+    ],
+    "trigger message 144": [
+        "savage reply 144-1",
+        "savage reply 144-2",
+        "savage reply 144-3"
+    ],
+    "trigger message 145": [
+        "savage reply 145-1",
+        "savage reply 145-2",
+        "savage reply 145-3"
+    ],
+    "trigger message 146": [
+        "savage reply 146-1",
+        "savage reply 146-2",
+        "savage reply 146-3"
+    ],
+    "trigger message 147": [
+        "savage reply 147-1",
+        "savage reply 147-2",
+        "savage reply 147-3"
+    ],
+    "trigger message 148": [
+        "savage reply 148-1",
+        "savage reply 148-2",
+        "savage reply 148-3"
+    ],
+    "trigger message 149": [
+        "savage reply 149-1",
+        "savage reply 149-2",
+        "savage reply 149-3"
+    ],
+    "trigger message 150": [
+        "savage reply 150-1",
+        "savage reply 150-2",
+        "savage reply 150-3"
+    ],
+    "trigger message 151": [
+        "savage reply 151-1",
+        "savage reply 151-2",
+        "savage reply 151-3"
+    ],
+    "trigger message 152": [
+        "savage reply 152-1",
+        "savage reply 152-2",
+        "savage reply 152-3"
+    ],
+    "trigger message 153": [
+        "savage reply 153-1",
+        "savage reply 153-2",
+        "savage reply 153-3"
+    ],
+    "trigger message 154": [
+        "savage reply 154-1",
+        "savage reply 154-2",
+        "savage reply 154-3"
+    ],
+    "trigger message 155": [
+        "savage reply 155-1",
+        "savage reply 155-2",
+        "savage reply 155-3"
+    ],
+    "trigger message 156": [
+        "savage reply 156-1",
+        "savage reply 156-2",
+        "savage reply 156-3"
+    ],
+    "trigger message 157": [
+        "savage reply 157-1",
+        "savage reply 157-2",
+        "savage reply 157-3"
+    ],
+    "trigger message 158": [
+        "savage reply 158-1",
+        "savage reply 158-2",
+        "savage reply 158-3"
+    ],
+    "trigger message 159": [
+        "savage reply 159-1",
+        "savage reply 159-2",
+        "savage reply 159-3"
+    ],
+    "trigger message 160": [
+        "savage reply 160-1",
+        "savage reply 160-2",
+        "savage reply 160-3"
+    ],
+    "trigger message 161": [
+        "savage reply 161-1",
+        "savage reply 161-2",
+        "savage reply 161-3"
+    ],
+    "trigger message 162": [
+        "savage reply 162-1",
+        "savage reply 162-2",
+        "savage reply 162-3"
+    ],
+    "trigger message 163": [
+        "savage reply 163-1",
+        "savage reply 163-2",
+        "savage reply 163-3"
+    ],
+    "trigger message 164": [
+        "savage reply 164-1",
+        "savage reply 164-2",
+        "savage reply 164-3"
+    ],
+    "trigger message 165": [
+        "savage reply 165-1",
+        "savage reply 165-2",
+        "savage reply 165-3"
+    ],
+    "trigger message 166": [
+        "savage reply 166-1",
+        "savage reply 166-2",
+        "savage reply 166-3"
+    ],
+    "trigger message 167": [
+        "savage reply 167-1",
+        "savage reply 167-2",
+        "savage reply 167-3"
+    ],
+    "trigger message 168": [
+        "savage reply 168-1",
+        "savage reply 168-2",
+        "savage reply 168-3"
+    ],
+    "trigger message 169": [
+        "savage reply 169-1",
+        "savage reply 169-2",
+        "savage reply 169-3"
+    ],
+    "trigger message 170": [
+        "savage reply 170-1",
+        "savage reply 170-2",
+        "savage reply 170-3"
+    ],
+    "trigger message 171": [
+        "savage reply 171-1",
+        "savage reply 171-2",
+        "savage reply 171-3"
+    ],
+    "trigger message 172": [
+        "savage reply 172-1",
+        "savage reply 172-2",
+        "savage reply 172-3"
+    ],
+    "trigger message 173": [
+        "savage reply 173-1",
+        "savage reply 173-2",
+        "savage reply 173-3"
+    ],
+    "trigger message 174": [
+        "savage reply 174-1",
+        "savage reply 174-2",
+        "savage reply 174-3"
+    ],
+    "trigger message 175": [
+        "savage reply 175-1",
+        "savage reply 175-2",
+        "savage reply 175-3"
+    ],
+    "trigger message 176": [
+        "savage reply 176-1",
+        "savage reply 176-2",
+        "savage reply 176-3"
+    ],
+    "trigger message 177": [
+        "savage reply 177-1",
+        "savage reply 177-2",
+        "savage reply 177-3"
+    ],
+    "trigger message 178": [
+        "savage reply 178-1",
+        "savage reply 178-2",
+        "savage reply 178-3"
+    ],
+    "trigger message 179": [
+        "savage reply 179-1",
+        "savage reply 179-2",
+        "savage reply 179-3"
+    ],
+    "trigger message 180": [
+        "savage reply 180-1",
+        "savage reply 180-2",
+        "savage reply 180-3"
+    ],
+    "trigger message 181": [
+        "savage reply 181-1",
+        "savage reply 181-2",
+        "savage reply 181-3"
+    ],
+    "trigger message 182": [
+        "savage reply 182-1",
+        "savage reply 182-2",
+        "savage reply 182-3"
+    ],
+    "trigger message 183": [
+        "savage reply 183-1",
+        "savage reply 183-2",
+        "savage reply 183-3"
+    ],
+    "trigger message 184": [
+        "savage reply 184-1",
+        "savage reply 184-2",
+        "savage reply 184-3"
+    ],
+    "trigger message 185": [
+        "savage reply 185-1",
+        "savage reply 185-2",
+        "savage reply 185-3"
+    ],
+    "trigger message 186": [
+        "savage reply 186-1",
+        "savage reply 186-2",
+        "savage reply 186-3"
+    ],
+    "trigger message 187": [
+        "savage reply 187-1",
+        "savage reply 187-2",
+        "savage reply 187-3"
+    ],
+    "trigger message 188": [
+        "savage reply 188-1",
+        "savage reply 188-2",
+        "savage reply 188-3"
+    ],
+    "trigger message 189": [
+        "savage reply 189-1",
+        "savage reply 189-2",
+        "savage reply 189-3"
+    ],
+    "trigger message 190": [
+        "savage reply 190-1",
+        "savage reply 190-2",
+        "savage reply 190-3"
+    ],
+    "trigger message 191": [
+        "savage reply 191-1",
+        "savage reply 191-2",
+        "savage reply 191-3"
+    ],
+    "trigger message 192": [
+        "savage reply 192-1",
+        "savage reply 192-2",
+        "savage reply 192-3"
+    ],
+    "trigger message 193": [
+        "savage reply 193-1",
+        "savage reply 193-2",
+        "savage reply 193-3"
+    ],
+    "trigger message 194": [
+        "savage reply 194-1",
+        "savage reply 194-2",
+        "savage reply 194-3"
+    ],
+    "trigger message 195": [
+        "savage reply 195-1",
+        "savage reply 195-2",
+        "savage reply 195-3"
+    ],
+    "trigger message 196": [
+        "savage reply 196-1",
+        "savage reply 196-2",
+        "savage reply 196-3"
+    ],
+    "trigger message 197": [
+        "savage reply 197-1",
+        "savage reply 197-2",
+        "savage reply 197-3"
+    ],
+    "trigger message 198": [
+        "savage reply 198-1",
+        "savage reply 198-2",
+        "savage reply 198-3"
+    ],
+    "trigger message 199": [
+        "savage reply 199-1",
+        "savage reply 199-2",
+        "savage reply 199-3"
+    ],
+    "trigger message 200": [
+        "savage reply 200-1",
+        "savage reply 200-2",
+        "savage reply 200-3"
+    ],
+    "trigger message 201": [
+        "savage reply 201-1",
+        "savage reply 201-2",
+        "savage reply 201-3"
+    ],
+    "trigger message 202": [
+        "savage reply 202-1",
+        "savage reply 202-2",
+        "savage reply 202-3"
+    ],
+    "trigger message 203": [
+        "savage reply 203-1",
+        "savage reply 203-2",
+        "savage reply 203-3"
+    ],
+    "trigger message 204": [
+        "savage reply 204-1",
+        "savage reply 204-2",
+        "savage reply 204-3"
+    ],
+    "trigger message 205": [
+        "savage reply 205-1",
+        "savage reply 205-2",
+        "savage reply 205-3"
+    ],
+    "trigger message 206": [
+        "savage reply 206-1",
+        "savage reply 206-2",
+        "savage reply 206-3"
+    ],
+    "trigger message 207": [
+        "savage reply 207-1",
+        "savage reply 207-2",
+        "savage reply 207-3"
+    ],
+    "trigger message 208": [
+        "savage reply 208-1",
+        "savage reply 208-2",
+        "savage reply 208-3"
+    ],
+    "trigger message 209": [
+        "savage reply 209-1",
+        "savage reply 209-2",
+        "savage reply 209-3"
+    ],
+    "trigger message 210": [
+        "savage reply 210-1",
+        "savage reply 210-2",
+        "savage reply 210-3"
+    ],
+    "trigger message 211": [
+        "savage reply 211-1",
+        "savage reply 211-2",
+        "savage reply 211-3"
+    ],
+    "trigger message 212": [
+        "savage reply 212-1",
+        "savage reply 212-2",
+        "savage reply 212-3"
+    ],
+    "trigger message 213": [
+        "savage reply 213-1",
+        "savage reply 213-2",
+        "savage reply 213-3"
+    ],
+    "trigger message 214": [
+        "savage reply 214-1",
+        "savage reply 214-2",
+        "savage reply 214-3"
+    ],
+    "trigger message 215": [
+        "savage reply 215-1",
+        "savage reply 215-2",
+        "savage reply 215-3"
+    ],
+    "trigger message 216": [
+        "savage reply 216-1",
+        "savage reply 216-2",
+        "savage reply 216-3"
+    ],
+    "trigger message 217": [
+        "savage reply 217-1",
+        "savage reply 217-2",
+        "savage reply 217-3"
+    ],
+    "trigger message 218": [
+        "savage reply 218-1",
+        "savage reply 218-2",
+        "savage reply 218-3"
+    ],
+    "trigger message 219": [
+        "savage reply 219-1",
+        "savage reply 219-2",
+        "savage reply 219-3"
+    ],
+    "trigger message 220": [
+        "savage reply 220-1",
+        "savage reply 220-2",
+        "savage reply 220-3"
+    ],
+    "trigger message 221": [
+        "savage reply 221-1",
+        "savage reply 221-2",
+        "savage reply 221-3"
+    ],
+    "trigger message 222": [
+        "savage reply 222-1",
+        "savage reply 222-2",
+        "savage reply 222-3"
+    ],
+    "trigger message 223": [
+        "savage reply 223-1",
+        "savage reply 223-2",
+        "savage reply 223-3"
+    ],
+    "trigger message 224": [
+        "savage reply 224-1",
+        "savage reply 224-2",
+        "savage reply 224-3"
+    ],
+    "trigger message 225": [
+        "savage reply 225-1",
+        "savage reply 225-2",
+        "savage reply 225-3"
+    ],
+    "trigger message 226": [
+        "savage reply 226-1",
+        "savage reply 226-2",
+        "savage reply 226-3"
+    ],
+    "trigger message 227": [
+        "savage reply 227-1",
+        "savage reply 227-2",
+        "savage reply 227-3"
+    ],
+    "trigger message 228": [
+        "savage reply 228-1",
+        "savage reply 228-2",
+        "savage reply 228-3"
+    ],
+    "trigger message 229": [
+        "savage reply 229-1",
+        "savage reply 229-2",
+        "savage reply 229-3"
+    ],
+    "trigger message 230": [
+        "savage reply 230-1",
+        "savage reply 230-2",
+        "savage reply 230-3"
+    ],
+    "trigger message 231": [
+        "savage reply 231-1",
+        "savage reply 231-2",
+        "savage reply 231-3"
+    ],
+    "trigger message 232": [
+        "savage reply 232-1",
+        "savage reply 232-2",
+        "savage reply 232-3"
+    ],
+    "trigger message 233": [
+        "savage reply 233-1",
+        "savage reply 233-2",
+        "savage reply 233-3"
+    ],
+    "trigger message 234": [
+        "savage reply 234-1",
+        "savage reply 234-2",
+        "savage reply 234-3"
+    ],
+    "trigger message 235": [
+        "savage reply 235-1",
+        "savage reply 235-2",
+        "savage reply 235-3"
+    ],
+    "trigger message 236": [
+        "savage reply 236-1",
+        "savage reply 236-2",
+        "savage reply 236-3"
+    ],
+    "trigger message 237": [
+        "savage reply 237-1",
+        "savage reply 237-2",
+        "savage reply 237-3"
+    ],
+    "trigger message 238": [
+        "savage reply 238-1",
+        "savage reply 238-2",
+        "savage reply 238-3"
+    ],
+    "trigger message 239": [
+        "savage reply 239-1",
+        "savage reply 239-2",
+        "savage reply 239-3"
+    ],
+    "trigger message 240": [
+        "savage reply 240-1",
+        "savage reply 240-2",
+        "savage reply 240-3"
+    ],
+    "trigger message 241": [
+        "savage reply 241-1",
+        "savage reply 241-2",
+        "savage reply 241-3"
+    ],
+    "trigger message 242": [
+        "savage reply 242-1",
+        "savage reply 242-2",
+        "savage reply 242-3"
+    ],
+    "trigger message 243": [
+        "savage reply 243-1",
+        "savage reply 243-2",
+        "savage reply 243-3"
+    ],
+    "trigger message 244": [
+        "savage reply 244-1",
+        "savage reply 244-2",
+        "savage reply 244-3"
+    ],
+    "trigger message 245": [
+        "savage reply 245-1",
+        "savage reply 245-2",
+        "savage reply 245-3"
+    ],
+    "trigger message 246": [
+        "savage reply 246-1",
+        "savage reply 246-2",
+        "savage reply 246-3"
+    ],
+    "trigger message 247": [
+        "savage reply 247-1",
+        "savage reply 247-2",
+        "savage reply 247-3"
+    ],
+    "trigger message 248": [
+        "savage reply 248-1",
+        "savage reply 248-2",
+        "savage reply 248-3"
+    ],
+    "trigger message 249": [
+        "savage reply 249-1",
+        "savage reply 249-2",
+        "savage reply 249-3"
+    ],
+    "trigger message 250": [
+        "savage reply 250-1",
+        "savage reply 250-2",
+        "savage reply 250-3"
+    ],
+    "trigger message 251": [
+        "savage reply 251-1",
+        "savage reply 251-2",
+        "savage reply 251-3"
+    ],
+    "trigger message 252": [
+        "savage reply 252-1",
+        "savage reply 252-2",
+        "savage reply 252-3"
+    ],
+    "trigger message 253": [
+        "savage reply 253-1",
+        "savage reply 253-2",
+        "savage reply 253-3"
+    ],
+    "trigger message 254": [
+        "savage reply 254-1",
+        "savage reply 254-2",
+        "savage reply 254-3"
+    ],
+    "trigger message 255": [
+        "savage reply 255-1",
+        "savage reply 255-2",
+        "savage reply 255-3"
+    ],
+    "trigger message 256": [
+        "savage reply 256-1",
+        "savage reply 256-2",
+        "savage reply 256-3"
+    ],
+    "trigger message 257": [
+        "savage reply 257-1",
+        "savage reply 257-2",
+        "savage reply 257-3"
+    ],
+    "trigger message 258": [
+        "savage reply 258-1",
+        "savage reply 258-2",
+        "savage reply 258-3"
+    ],
+    "trigger message 259": [
+        "savage reply 259-1",
+        "savage reply 259-2",
+        "savage reply 259-3"
+    ],
+    "trigger message 260": [
+        "savage reply 260-1",
+        "savage reply 260-2",
+        "savage reply 260-3"
+    ],
+    "trigger message 261": [
+        "savage reply 261-1",
+        "savage reply 261-2",
+        "savage reply 261-3"
+    ],
+    "trigger message 262": [
+        "savage reply 262-1",
+        "savage reply 262-2",
+        "savage reply 262-3"
+    ],
+    "trigger message 263": [
+        "savage reply 263-1",
+        "savage reply 263-2",
+        "savage reply 263-3"
+    ],
+    "trigger message 264": [
+        "savage reply 264-1",
+        "savage reply 264-2",
+        "savage reply 264-3"
+    ],
+    "trigger message 265": [
+        "savage reply 265-1",
+        "savage reply 265-2",
+        "savage reply 265-3"
+    ],
+    "trigger message 266": [
+        "savage reply 266-1",
+        "savage reply 266-2",
+        "savage reply 266-3"
+    ],
+    "trigger message 267": [
+        "savage reply 267-1",
+        "savage reply 267-2",
+        "savage reply 267-3"
+    ],
+    "trigger message 268": [
+        "savage reply 268-1",
+        "savage reply 268-2",
+        "savage reply 268-3"
+    ],
+    "trigger message 269": [
+        "savage reply 269-1",
+        "savage reply 269-2",
+        "savage reply 269-3"
+    ],
+    "trigger message 270": [
+        "savage reply 270-1",
+        "savage reply 270-2",
+        "savage reply 270-3"
+    ],
+    "trigger message 271": [
+        "savage reply 271-1",
+        "savage reply 271-2",
+        "savage reply 271-3"
+    ],
+    "trigger message 272": [
+        "savage reply 272-1",
+        "savage reply 272-2",
+        "savage reply 272-3"
+    ],
+    "trigger message 273": [
+        "savage reply 273-1",
+        "savage reply 273-2",
+        "savage reply 273-3"
+    ],
+    "trigger message 274": [
+        "savage reply 274-1",
+        "savage reply 274-2",
+        "savage reply 274-3"
+    ],
+    "trigger message 275": [
+        "savage reply 275-1",
+        "savage reply 275-2",
+        "savage reply 275-3"
+    ],
+    "trigger message 276": [
+        "savage reply 276-1",
+        "savage reply 276-2",
+        "savage reply 276-3"
+    ],
+    "trigger message 277": [
+        "savage reply 277-1",
+        "savage reply 277-2",
+        "savage reply 277-3"
+    ],
+    "trigger message 278": [
+        "savage reply 278-1",
+        "savage reply 278-2",
+        "savage reply 278-3"
+    ],
+    "trigger message 279": [
+        "savage reply 279-1",
+        "savage reply 279-2",
+        "savage reply 279-3"
+    ],
+    "trigger message 280": [
+        "savage reply 280-1",
+        "savage reply 280-2",
+        "savage reply 280-3"
+    ],
+    "trigger message 281": [
+        "savage reply 281-1",
+        "savage reply 281-2",
+        "savage reply 281-3"
+    ],
+    "trigger message 282": [
+        "savage reply 282-1",
+        "savage reply 282-2",
+        "savage reply 282-3"
+    ],
+    "trigger message 283": [
+        "savage reply 283-1",
+        "savage reply 283-2",
+        "savage reply 283-3"
+    ],
+    "trigger message 284": [
+        "savage reply 284-1",
+        "savage reply 284-2",
+        "savage reply 284-3"
+    ],
+    "trigger message 285": [
+        "savage reply 285-1",
+        "savage reply 285-2",
+        "savage reply 285-3"
+    ],
+    "trigger message 286": [
+        "savage reply 286-1",
+        "savage reply 286-2",
+        "savage reply 286-3"
+    ],
+    "trigger message 287": [
+        "savage reply 287-1",
+        "savage reply 287-2",
+        "savage reply 287-3"
+    ],
+    "trigger message 288": [
+        "savage reply 288-1",
+        "savage reply 288-2",
+        "savage reply 288-3"
+    ],
+    "trigger message 289": [
+        "savage reply 289-1",
+        "savage reply 289-2",
+        "savage reply 289-3"
+    ],
+    "trigger message 290": [
+        "savage reply 290-1",
+        "savage reply 290-2",
+        "savage reply 290-3"
+    ],
+    "trigger message 291": [
+        "savage reply 291-1",
+        "savage reply 291-2",
+        "savage reply 291-3"
+    ],
+    "trigger message 292": [
+        "savage reply 292-1",
+        "savage reply 292-2",
+        "savage reply 292-3"
+    ],
+    "trigger message 293": [
+        "savage reply 293-1",
+        "savage reply 293-2",
+        "savage reply 293-3"
+    ],
+    "trigger message 294": [
+        "savage reply 294-1",
+        "savage reply 294-2",
+        "savage reply 294-3"
+    ],
+    "trigger message 295": [
+        "savage reply 295-1",
+        "savage reply 295-2",
+        "savage reply 295-3"
+    ],
+    "trigger message 296": [
+        "savage reply 296-1",
+        "savage reply 296-2",
+        "savage reply 296-3"
+    ],
+    "trigger message 297": [
+        "savage reply 297-1",
+        "savage reply 297-2",
+        "savage reply 297-3"
+    ],
+    "trigger message 298": [
+        "savage reply 298-1",
+        "savage reply 298-2",
+        "savage reply 298-3"
+    ],
+    "trigger message 299": [
+        "savage reply 299-1",
+        "savage reply 299-2",
+        "savage reply 299-3"
+    ],
+    "trigger message 300": [
+        "savage reply 300-1",
+        "savage reply 300-2",
+        "savage reply 300-3"
+    ],
+    "trigger message 301": [
+        "savage reply 301-1",
+        "savage reply 301-2",
+        "savage reply 301-3"
+    ],
+    "trigger message 302": [
+        "savage reply 302-1",
+        "savage reply 302-2",
+        "savage reply 302-3"
+    ],
+    "trigger message 303": [
+        "savage reply 303-1",
+        "savage reply 303-2",
+        "savage reply 303-3"
+    ],
+    "trigger message 304": [
+        "savage reply 304-1",
+        "savage reply 304-2",
+        "savage reply 304-3"
+    ],
+    "trigger message 305": [
+        "savage reply 305-1",
+        "savage reply 305-2",
+        "savage reply 305-3"
+    ],
+    "trigger message 306": [
+        "savage reply 306-1",
+        "savage reply 306-2",
+        "savage reply 306-3"
+    ],
+    "trigger message 307": [
+        "savage reply 307-1",
+        "savage reply 307-2",
+        "savage reply 307-3"
+    ],
+    "trigger message 308": [
+        "savage reply 308-1",
+        "savage reply 308-2",
+        "savage reply 308-3"
+    ],
+    "trigger message 309": [
+        "savage reply 309-1",
+        "savage reply 309-2",
+        "savage reply 309-3"
+    ],
+    "trigger message 310": [
+        "savage reply 310-1",
+        "savage reply 310-2",
+        "savage reply 310-3"
+    ],
+    "trigger message 311": [
+        "savage reply 311-1",
+        "savage reply 311-2",
+        "savage reply 311-3"
+    ],
+    "trigger message 312": [
+        "savage reply 312-1",
+        "savage reply 312-2",
+        "savage reply 312-3"
+    ],
+    "trigger message 313": [
+        "savage reply 313-1",
+        "savage reply 313-2",
+        "savage reply 313-3"
+    ],
+    "trigger message 314": [
+        "savage reply 314-1",
+        "savage reply 314-2",
+        "savage reply 314-3"
+    ],
+    "trigger message 315": [
+        "savage reply 315-1",
+        "savage reply 315-2",
+        "savage reply 315-3"
+    ],
+    "trigger message 316": [
+        "savage reply 316-1",
+        "savage reply 316-2",
+        "savage reply 316-3"
+    ],
+    "trigger message 317": [
+        "savage reply 317-1",
+        "savage reply 317-2",
+        "savage reply 317-3"
+    ],
+    "trigger message 318": [
+        "savage reply 318-1",
+        "savage reply 318-2",
+        "savage reply 318-3"
+    ],
+    "trigger message 319": [
+        "savage reply 319-1",
+        "savage reply 319-2",
+        "savage reply 319-3"
+    ],
+    "trigger message 320": [
+        "savage reply 320-1",
+        "savage reply 320-2",
+        "savage reply 320-3"
+    ],
+    "trigger message 321": [
+        "savage reply 321-1",
+        "savage reply 321-2",
+        "savage reply 321-3"
+    ],
+    "trigger message 322": [
+        "savage reply 322-1",
+        "savage reply 322-2",
+        "savage reply 322-3"
+    ],
+    "trigger message 323": [
+        "savage reply 323-1",
+        "savage reply 323-2",
+        "savage reply 323-3"
+    ],
+    "trigger message 324": [
+        "savage reply 324-1",
+        "savage reply 324-2",
+        "savage reply 324-3"
+    ],
+    "trigger message 325": [
+        "savage reply 325-1",
+        "savage reply 325-2",
+        "savage reply 325-3"
+    ],
+    "trigger message 326": [
+        "savage reply 326-1",
+        "savage reply 326-2",
+        "savage reply 326-3"
+    ],
+    "trigger message 327": [
+        "savage reply 327-1",
+        "savage reply 327-2",
+        "savage reply 327-3"
+    ],
+    "trigger message 328": [
+        "savage reply 328-1",
+        "savage reply 328-2",
+        "savage reply 328-3"
+    ],
+    "trigger message 329": [
+        "savage reply 329-1",
+        "savage reply 329-2",
+        "savage reply 329-3"
+    ],
+    "trigger message 330": [
+        "savage reply 330-1",
+        "savage reply 330-2",
+        "savage reply 330-3"
+    ],
+    "trigger message 331": [
+        "savage reply 331-1",
+        "savage reply 331-2",
+        "savage reply 331-3"
+    ],
+    "trigger message 332": [
+        "savage reply 332-1",
+        "savage reply 332-2",
+        "savage reply 332-3"
+    ],
+    "trigger message 333": [
+        "savage reply 333-1",
+        "savage reply 333-2",
+        "savage reply 333-3"
+    ],
+    "trigger message 334": [
+        "savage reply 334-1",
+        "savage reply 334-2",
+        "savage reply 334-3"
+    ],
+    "trigger message 335": [
+        "savage reply 335-1",
+        "savage reply 335-2",
+        "savage reply 335-3"
+    ],
+    "trigger message 336": [
+        "savage reply 336-1",
+        "savage reply 336-2",
+        "savage reply 336-3"
+    ],
+    "trigger message 337": [
+        "savage reply 337-1",
+        "savage reply 337-2",
+        "savage reply 337-3"
+    ],
+    "trigger message 338": [
+        "savage reply 338-1",
+        "savage reply 338-2",
+        "savage reply 338-3"
+    ],
+    "trigger message 339": [
+        "savage reply 339-1",
+        "savage reply 339-2",
+        "savage reply 339-3"
+    ],
+    "trigger message 340": [
+        "savage reply 340-1",
+        "savage reply 340-2",
+        "savage reply 340-3"
+    ],
+    "trigger message 341": [
+        "savage reply 341-1",
+        "savage reply 341-2",
+        "savage reply 341-3"
+    ],
+    "trigger message 342": [
+        "savage reply 342-1",
+        "savage reply 342-2",
+        "savage reply 342-3"
+    ],
+    "trigger message 343": [
+        "savage reply 343-1",
+        "savage reply 343-2",
+        "savage reply 343-3"
+    ],
+    "trigger message 344": [
+        "savage reply 344-1",
+        "savage reply 344-2",
+        "savage reply 344-3"
+    ],
+    "trigger message 345": [
+        "savage reply 345-1",
+        "savage reply 345-2",
+        "savage reply 345-3"
+    ],
+    "trigger message 346": [
+        "savage reply 346-1",
+        "savage reply 346-2",
+        "savage reply 346-3"
+    ],
+    "trigger message 347": [
+        "savage reply 347-1",
+        "savage reply 347-2",
+        "savage reply 347-3"
+    ],
+    "trigger message 348": [
+        "savage reply 348-1",
+        "savage reply 348-2",
+        "savage reply 348-3"
+    ],
+    "trigger message 349": [
+        "savage reply 349-1",
+        "savage reply 349-2",
+        "savage reply 349-3"
+    ],
+    "trigger message 350": [
+        "savage reply 350-1",
+        "savage reply 350-2",
+        "savage reply 350-3"
+    ],
+    "trigger message 351": [
+        "savage reply 351-1",
+        "savage reply 351-2",
+        "savage reply 351-3"
+    ],
+    "trigger message 352": [
+        "savage reply 352-1",
+        "savage reply 352-2",
+        "savage reply 352-3"
+    ],
+    "trigger message 353": [
+        "savage reply 353-1",
+        "savage reply 353-2",
+        "savage reply 353-3"
+    ],
+    "trigger message 354": [
+        "savage reply 354-1",
+        "savage reply 354-2",
+        "savage reply 354-3"
+    ],
+    "trigger message 355": [
+        "savage reply 355-1",
+        "savage reply 355-2",
+        "savage reply 355-3"
+    ],
+    "trigger message 356": [
+        "savage reply 356-1",
+        "savage reply 356-2",
+        "savage reply 356-3"
+    ],
+    "trigger message 357": [
+        "savage reply 357-1",
+        "savage reply 357-2",
+        "savage reply 357-3"
+    ],
+    "trigger message 358": [
+        "savage reply 358-1",
+        "savage reply 358-2",
+        "savage reply 358-3"
+    ],
+    "trigger message 359": [
+        "savage reply 359-1",
+        "savage reply 359-2",
+        "savage reply 359-3"
+    ],
+    "trigger message 360": [
+        "savage reply 360-1",
+        "savage reply 360-2",
+        "savage reply 360-3"
+    ],
+    "trigger message 361": [
+        "savage reply 361-1",
+        "savage reply 361-2",
+        "savage reply 361-3"
+    ],
+    "trigger message 362": [
+        "savage reply 362-1",
+        "savage reply 362-2",
+        "savage reply 362-3"
+    ],
+    "trigger message 363": [
+        "savage reply 363-1",
+        "savage reply 363-2",
+        "savage reply 363-3"
+    ],
+    "trigger message 364": [
+        "savage reply 364-1",
+        "savage reply 364-2",
+        "savage reply 364-3"
+    ],
+    "trigger message 365": [
+        "savage reply 365-1",
+        "savage reply 365-2",
+        "savage reply 365-3"
+    ],
+    "trigger message 366": [
+        "savage reply 366-1",
+        "savage reply 366-2",
+        "savage reply 366-3"
+    ],
+    "trigger message 367": [
+        "savage reply 367-1",
+        "savage reply 367-2",
+        "savage reply 367-3"
+    ],
+    "trigger message 368": [
+        "savage reply 368-1",
+        "savage reply 368-2",
+        "savage reply 368-3"
+    ],
+    "trigger message 369": [
+        "savage reply 369-1",
+        "savage reply 369-2",
+        "savage reply 369-3"
+    ],
+    "trigger message 370": [
+        "savage reply 370-1",
+        "savage reply 370-2",
+        "savage reply 370-3"
+    ],
+    "trigger message 371": [
+        "savage reply 371-1",
+        "savage reply 371-2",
+        "savage reply 371-3"
+    ],
+    "trigger message 372": [
+        "savage reply 372-1",
+        "savage reply 372-2",
+        "savage reply 372-3"
+    ],
+    "trigger message 373": [
+        "savage reply 373-1",
+        "savage reply 373-2",
+        "savage reply 373-3"
+    ],
+    "trigger message 374": [
+        "savage reply 374-1",
+        "savage reply 374-2",
+        "savage reply 374-3"
+    ],
+    "trigger message 375": [
+        "savage reply 375-1",
+        "savage reply 375-2",
+        "savage reply 375-3"
+    ],
+    "trigger message 376": [
+        "savage reply 376-1",
+        "savage reply 376-2",
+        "savage reply 376-3"
+    ],
+    "trigger message 377": [
+        "savage reply 377-1",
+        "savage reply 377-2",
+        "savage reply 377-3"
+    ],
+    "trigger message 378": [
+        "savage reply 378-1",
+        "savage reply 378-2",
+        "savage reply 378-3"
+    ],
+    "trigger message 379": [
+        "savage reply 379-1",
+        "savage reply 379-2",
+        "savage reply 379-3"
+    ],
+    "trigger message 380": [
+        "savage reply 380-1",
+        "savage reply 380-2",
+        "savage reply 380-3"
+    ],
+    "trigger message 381": [
+        "savage reply 381-1",
+        "savage reply 381-2",
+        "savage reply 381-3"
+    ],
+    "trigger message 382": [
+        "savage reply 382-1",
+        "savage reply 382-2",
+        "savage reply 382-3"
+    ],
+    "trigger message 383": [
+        "savage reply 383-1",
+        "savage reply 383-2",
+        "savage reply 383-3"
+    ],
+    "trigger message 384": [
+        "savage reply 384-1",
+        "savage reply 384-2",
+        "savage reply 384-3"
+    ],
+    "trigger message 385": [
+        "savage reply 385-1",
+        "savage reply 385-2",
+        "savage reply 385-3"
+    ],
+    "trigger message 386": [
+        "savage reply 386-1",
+        "savage reply 386-2",
+        "savage reply 386-3"
+    ],
+    "trigger message 387": [
+        "savage reply 387-1",
+        "savage reply 387-2",
+        "savage reply 387-3"
+    ],
+    "trigger message 388": [
+        "savage reply 388-1",
+        "savage reply 388-2",
+        "savage reply 388-3"
+    ],
+    "trigger message 389": [
+        "savage reply 389-1",
+        "savage reply 389-2",
+        "savage reply 389-3"
+    ],
+    "trigger message 390": [
+        "savage reply 390-1",
+        "savage reply 390-2",
+        "savage reply 390-3"
+    ],
+    "trigger message 391": [
+        "savage reply 391-1",
+        "savage reply 391-2",
+        "savage reply 391-3"
+    ],
+    "trigger message 392": [
+        "savage reply 392-1",
+        "savage reply 392-2",
+        "savage reply 392-3"
+    ],
+    "trigger message 393": [
+        "savage reply 393-1",
+        "savage reply 393-2",
+        "savage reply 393-3"
+    ],
+    "trigger message 394": [
+        "savage reply 394-1",
+        "savage reply 394-2",
+        "savage reply 394-3"
+    ],
+    "trigger message 395": [
+        "savage reply 395-1",
+        "savage reply 395-2",
+        "savage reply 395-3"
+    ],
+    "trigger message 396": [
+        "savage reply 396-1",
+        "savage reply 396-2",
+        "savage reply 396-3"
+    ],
+    "trigger message 397": [
+        "savage reply 397-1",
+        "savage reply 397-2",
+        "savage reply 397-3"
+    ],
+    "trigger message 398": [
+        "savage reply 398-1",
+        "savage reply 398-2",
+        "savage reply 398-3"
+    ],
+    "trigger message 399": [
+        "savage reply 399-1",
+        "savage reply 399-2",
+        "savage reply 399-3"
+    ],
+    "trigger message 400": [
+        "savage reply 400-1",
+        "savage reply 400-2",
+        "savage reply 400-3"
+    ],
+    "trigger message 401": [
+        "savage reply 401-1",
+        "savage reply 401-2",
+        "savage reply 401-3"
+    ],
+    "trigger message 402": [
+        "savage reply 402-1",
+        "savage reply 402-2",
+        "savage reply 402-3"
+    ],
+    "trigger message 403": [
+        "savage reply 403-1",
+        "savage reply 403-2",
+        "savage reply 403-3"
+    ],
+    "trigger message 404": [
+        "savage reply 404-1",
+        "savage reply 404-2",
+        "savage reply 404-3"
+    ],
+    "trigger message 405": [
+        "savage reply 405-1",
+        "savage reply 405-2",
+        "savage reply 405-3"
+    ],
+    "trigger message 406": [
+        "savage reply 406-1",
+        "savage reply 406-2",
+        "savage reply 406-3"
+    ],
+    "trigger message 407": [
+        "savage reply 407-1",
+        "savage reply 407-2",
+        "savage reply 407-3"
+    ],
+    "trigger message 408": [
+        "savage reply 408-1",
+        "savage reply 408-2",
+        "savage reply 408-3"
+    ],
+    "trigger message 409": [
+        "savage reply 409-1",
+        "savage reply 409-2",
+        "savage reply 409-3"
+    ],
+    "trigger message 410": [
+        "savage reply 410-1",
+        "savage reply 410-2",
+        "savage reply 410-3"
+    ],
+    "trigger message 411": [
+        "savage reply 411-1",
+        "savage reply 411-2",
+        "savage reply 411-3"
+    ],
+    "trigger message 412": [
+        "savage reply 412-1",
+        "savage reply 412-2",
+        "savage reply 412-3"
+    ],
+    "trigger message 413": [
+        "savage reply 413-1",
+        "savage reply 413-2",
+        "savage reply 413-3"
+    ],
+    "trigger message 414": [
+        "savage reply 414-1",
+        "savage reply 414-2",
+        "savage reply 414-3"
+    ],
+    "trigger message 415": [
+        "savage reply 415-1",
+        "savage reply 415-2",
+        "savage reply 415-3"
+    ],
+    "trigger message 416": [
+        "savage reply 416-1",
+        "savage reply 416-2",
+        "savage reply 416-3"
+    ],
+    "trigger message 417": [
+        "savage reply 417-1",
+        "savage reply 417-2",
+        "savage reply 417-3"
+    ],
+    "trigger message 418": [
+        "savage reply 418-1",
+        "savage reply 418-2",
+        "savage reply 418-3"
+    ],
+    "trigger message 419": [
+        "savage reply 419-1",
+        "savage reply 419-2",
+        "savage reply 419-3"
+    ],
+    "trigger message 420": [
+        "savage reply 420-1",
+        "savage reply 420-2",
+        "savage reply 420-3"
+    ],
+    "trigger message 421": [
+        "savage reply 421-1",
+        "savage reply 421-2",
+        "savage reply 421-3"
+    ],
+    "trigger message 422": [
+        "savage reply 422-1",
+        "savage reply 422-2",
+        "savage reply 422-3"
+    ],
+    "trigger message 423": [
+        "savage reply 423-1",
+        "savage reply 423-2",
+        "savage reply 423-3"
+    ],
+    "trigger message 424": [
+        "savage reply 424-1",
+        "savage reply 424-2",
+        "savage reply 424-3"
+    ],
+    "trigger message 425": [
+        "savage reply 425-1",
+        "savage reply 425-2",
+        "savage reply 425-3"
+    ],
+    "trigger message 426": [
+        "savage reply 426-1",
+        "savage reply 426-2",
+        "savage reply 426-3"
+    ],
+    "trigger message 427": [
+        "savage reply 427-1",
+        "savage reply 427-2",
+        "savage reply 427-3"
+    ],
+    "trigger message 428": [
+        "savage reply 428-1",
+        "savage reply 428-2",
+        "savage reply 428-3"
+    ],
+    "trigger message 429": [
+        "savage reply 429-1",
+        "savage reply 429-2",
+        "savage reply 429-3"
+    ],
+    "trigger message 430": [
+        "savage reply 430-1",
+        "savage reply 430-2",
+        "savage reply 430-3"
+    ],
+    "trigger message 431": [
+        "savage reply 431-1",
+        "savage reply 431-2",
+        "savage reply 431-3"
+    ],
+    "trigger message 432": [
+        "savage reply 432-1",
+        "savage reply 432-2",
+        "savage reply 432-3"
+    ],
+    "trigger message 433": [
+        "savage reply 433-1",
+        "savage reply 433-2",
+        "savage reply 433-3"
+    ],
+    "trigger message 434": [
+        "savage reply 434-1",
+        "savage reply 434-2",
+        "savage reply 434-3"
+    ],
+    "trigger message 435": [
+        "savage reply 435-1",
+        "savage reply 435-2",
+        "savage reply 435-3"
+    ],
+    "trigger message 436": [
+        "savage reply 436-1",
+        "savage reply 436-2",
+        "savage reply 436-3"
+    ],
+    "trigger message 437": [
+        "savage reply 437-1",
+        "savage reply 437-2",
+        "savage reply 437-3"
+    ],
+    "trigger message 438": [
+        "savage reply 438-1",
+        "savage reply 438-2",
+        "savage reply 438-3"
+    ],
+    "trigger message 439": [
+        "savage reply 439-1",
+        "savage reply 439-2",
+        "savage reply 439-3"
+    ],
+    "trigger message 440": [
+        "savage reply 440-1",
+        "savage reply 440-2",
+        "savage reply 440-3"
+    ],
+    "trigger message 441": [
+        "savage reply 441-1",
+        "savage reply 441-2",
+        "savage reply 441-3"
+    ],
+    "trigger message 442": [
+        "savage reply 442-1",
+        "savage reply 442-2",
+        "savage reply 442-3"
+    ],
+    "trigger message 443": [
+        "savage reply 443-1",
+        "savage reply 443-2",
+        "savage reply 443-3"
+    ],
+    "trigger message 444": [
+        "savage reply 444-1",
+        "savage reply 444-2",
+        "savage reply 444-3"
+    ],
+    "trigger message 445": [
+        "savage reply 445-1",
+        "savage reply 445-2",
+        "savage reply 445-3"
+    ],
+    "trigger message 446": [
+        "savage reply 446-1",
+        "savage reply 446-2",
+        "savage reply 446-3"
+    ],
+    "trigger message 447": [
+        "savage reply 447-1",
+        "savage reply 447-2",
+        "savage reply 447-3"
+    ],
+    "trigger message 448": [
+        "savage reply 448-1",
+        "savage reply 448-2",
+        "savage reply 448-3"
+    ],
+    "trigger message 449": [
+        "savage reply 449-1",
+        "savage reply 449-2",
+        "savage reply 449-3"
+    ],
+    "trigger message 450": [
+        "savage reply 450-1",
+        "savage reply 450-2",
+        "savage reply 450-3"
+    ],
+    "trigger message 451": [
+        "savage reply 451-1",
+        "savage reply 451-2",
+        "savage reply 451-3"
+    ],
+    "trigger message 452": [
+        "savage reply 452-1",
+        "savage reply 452-2",
+        "savage reply 452-3"
+    ],
+    "trigger message 453": [
+        "savage reply 453-1",
+        "savage reply 453-2",
+        "savage reply 453-3"
+    ],
+    "trigger message 454": [
+        "savage reply 454-1",
+        "savage reply 454-2",
+        "savage reply 454-3"
+    ],
+    "trigger message 455": [
+        "savage reply 455-1",
+        "savage reply 455-2",
+        "savage reply 455-3"
+    ],
+    "trigger message 456": [
+        "savage reply 456-1",
+        "savage reply 456-2",
+        "savage reply 456-3"
+    ],
+    "trigger message 457": [
+        "savage reply 457-1",
+        "savage reply 457-2",
+        "savage reply 457-3"
+    ],
+    "trigger message 458": [
+        "savage reply 458-1",
+        "savage reply 458-2",
+        "savage reply 458-3"
+    ],
+    "trigger message 459": [
+        "savage reply 459-1",
+        "savage reply 459-2",
+        "savage reply 459-3"
+    ],
+    "trigger message 460": [
+        "savage reply 460-1",
+        "savage reply 460-2",
+        "savage reply 460-3"
+    ],
+    "trigger message 461": [
+        "savage reply 461-1",
+        "savage reply 461-2",
+        "savage reply 461-3"
+    ],
+    "trigger message 462": [
+        "savage reply 462-1",
+        "savage reply 462-2",
+        "savage reply 462-3"
+    ],
+    "trigger message 463": [
+        "savage reply 463-1",
+        "savage reply 463-2",
+        "savage reply 463-3"
+    ],
+    "trigger message 464": [
+        "savage reply 464-1",
+        "savage reply 464-2",
+        "savage reply 464-3"
+    ],
+    "trigger message 465": [
+        "savage reply 465-1",
+        "savage reply 465-2",
+        "savage reply 465-3"
+    ],
+    "trigger message 466": [
+        "savage reply 466-1",
+        "savage reply 466-2",
+        "savage reply 466-3"
+    ],
+    "trigger message 467": [
+        "savage reply 467-1",
+        "savage reply 467-2",
+        "savage reply 467-3"
+    ],
+    "trigger message 468": [
+        "savage reply 468-1",
+        "savage reply 468-2",
+        "savage reply 468-3"
+    ],
+    "trigger message 469": [
+        "savage reply 469-1",
+        "savage reply 469-2",
+        "savage reply 469-3"
+    ],
+    "trigger message 470": [
+        "savage reply 470-1",
+        "savage reply 470-2",
+        "savage reply 470-3"
+    ],
+    "trigger message 471": [
+        "savage reply 471-1",
+        "savage reply 471-2",
+        "savage reply 471-3"
+    ],
+    "trigger message 472": [
+        "savage reply 472-1",
+        "savage reply 472-2",
+        "savage reply 472-3"
+    ],
+    "trigger message 473": [
+        "savage reply 473-1",
+        "savage reply 473-2",
+        "savage reply 473-3"
+    ],
+    "trigger message 474": [
+        "savage reply 474-1",
+        "savage reply 474-2",
+        "savage reply 474-3"
+    ],
+    "trigger message 475": [
+        "savage reply 475-1",
+        "savage reply 475-2",
+        "savage reply 475-3"
+    ],
+    "trigger message 476": [
+        "savage reply 476-1",
+        "savage reply 476-2",
+        "savage reply 476-3"
+    ],
+    "trigger message 477": [
+        "savage reply 477-1",
+        "savage reply 477-2",
+        "savage reply 477-3"
+    ],
+    "trigger message 478": [
+        "savage reply 478-1",
+        "savage reply 478-2",
+        "savage reply 478-3"
+    ],
+    "trigger message 479": [
+        "savage reply 479-1",
+        "savage reply 479-2",
+        "savage reply 479-3"
+    ],
+    "trigger message 480": [
+        "savage reply 480-1",
+        "savage reply 480-2",
+        "savage reply 480-3"
+    ],
+    "trigger message 481": [
+        "savage reply 481-1",
+        "savage reply 481-2",
+        "savage reply 481-3"
+    ],
+    "trigger message 482": [
+        "savage reply 482-1",
+        "savage reply 482-2",
+        "savage reply 482-3"
+    ],
+    "trigger message 483": [
+        "savage reply 483-1",
+        "savage reply 483-2",
+        "savage reply 483-3"
+    ],
+    "trigger message 484": [
+        "savage reply 484-1",
+        "savage reply 484-2",
+        "savage reply 484-3"
+    ],
+    "trigger message 485": [
+        "savage reply 485-1",
+        "savage reply 485-2",
+        "savage reply 485-3"
+    ],
+    "trigger message 486": [
+        "savage reply 486-1",
+        "savage reply 486-2",
+        "savage reply 486-3"
+    ],
+    "trigger message 487": [
+        "savage reply 487-1",
+        "savage reply 487-2",
+        "savage reply 487-3"
+    ],
+    "trigger message 488": [
+        "savage reply 488-1",
+        "savage reply 488-2",
+        "savage reply 488-3"
+    ],
+    "trigger message 489": [
+        "savage reply 489-1",
+        "savage reply 489-2",
+        "savage reply 489-3"
+    ],
+    "trigger message 490": [
+        "savage reply 490-1",
+        "savage reply 490-2",
+        "savage reply 490-3"
+    ],
+    "trigger message 491": [
+        "savage reply 491-1",
+        "savage reply 491-2",
+        "savage reply 491-3"
+    ],
+    "trigger message 492": [
+        "savage reply 492-1",
+        "savage reply 492-2",
+        "savage reply 492-3"
+    ],
+    "trigger message 493": [
+        "savage reply 493-1",
+        "savage reply 493-2",
+        "savage reply 493-3"
+    ],
+    "trigger message 494": [
+        "savage reply 494-1",
+        "savage reply 494-2",
+        "savage reply 494-3"
+    ],
+    "trigger message 495": [
+        "savage reply 495-1",
+        "savage reply 495-2",
+        "savage reply 495-3"
+    ],
+    "trigger message 496": [
+        "savage reply 496-1",
+        "savage reply 496-2",
+        "savage reply 496-3"
+    ],
+    "trigger message 497": [
+        "savage reply 497-1",
+        "savage reply 497-2",
+        "savage reply 497-3"
+    ],
+    "trigger message 498": [
+        "savage reply 498-1",
+        "savage reply 498-2",
+        "savage reply 498-3"
+    ],
+    "trigger message 499": [
+        "savage reply 499-1",
+        "savage reply 499-2",
+        "savage reply 499-3"
+    ],
+    "trigger message 500": [
+        "savage reply 500-1",
+        "savage reply 500-2",
+        "savage reply 500-3"
+    ],
+    "trigger message 501": [
+        "savage reply 501-1",
+        "savage reply 501-2",
+        "savage reply 501-3"
+    ],
+    "trigger message 502": [
+        "savage reply 502-1",
+        "savage reply 502-2",
+        "savage reply 502-3"
+    ],
+    "trigger message 503": [
+        "savage reply 503-1",
+        "savage reply 503-2",
+        "savage reply 503-3"
+    ],
+    "trigger message 504": [
+        "savage reply 504-1",
+        "savage reply 504-2",
+        "savage reply 504-3"
+    ],
+    "trigger message 505": [
+        "savage reply 505-1",
+        "savage reply 505-2",
+        "savage reply 505-3"
+    ],
+    "trigger message 506": [
+        "savage reply 506-1",
+        "savage reply 506-2",
+        "savage reply 506-3"
+    ],
+    "trigger message 507": [
+        "savage reply 507-1",
+        "savage reply 507-2",
+        "savage reply 507-3"
+    ],
+    "trigger message 508": [
+        "savage reply 508-1",
+        "savage reply 508-2",
+        "savage reply 508-3"
+    ],
+    "trigger message 509": [
+        "savage reply 509-1",
+        "savage reply 509-2",
+        "savage reply 509-3"
+    ],
+    "trigger message 510": [
+        "savage reply 510-1",
+        "savage reply 510-2",
+        "savage reply 510-3"
+    ],
+    "trigger message 511": [
+        "savage reply 511-1",
+        "savage reply 511-2",
+        "savage reply 511-3"
+    ],
+    "trigger message 512": [
+        "savage reply 512-1",
+        "savage reply 512-2",
+        "savage reply 512-3"
+    ],
+    "trigger message 513": [
+        "savage reply 513-1",
+        "savage reply 513-2",
+        "savage reply 513-3"
+    ],
+    "trigger message 514": [
+        "savage reply 514-1",
+        "savage reply 514-2",
+        "savage reply 514-3"
+    ],
+    "trigger message 515": [
+        "savage reply 515-1",
+        "savage reply 515-2",
+        "savage reply 515-3"
+    ],
+    "trigger message 516": [
+        "savage reply 516-1",
+        "savage reply 516-2",
+        "savage reply 516-3"
+    ],
+    "trigger message 517": [
+        "savage reply 517-1",
+        "savage reply 517-2",
+        "savage reply 517-3"
+    ],
+    "trigger message 518": [
+        "savage reply 518-1",
+        "savage reply 518-2",
+        "savage reply 518-3"
+    ],
+    "trigger message 519": [
+        "savage reply 519-1",
+        "savage reply 519-2",
+        "savage reply 519-3"
+    ],
+    "trigger message 520": [
+        "savage reply 520-1",
+        "savage reply 520-2",
+        "savage reply 520-3"
+    ],
+    "trigger message 521": [
+        "savage reply 521-1",
+        "savage reply 521-2",
+        "savage reply 521-3"
+    ],
+    "trigger message 522": [
+        "savage reply 522-1",
+        "savage reply 522-2",
+        "savage reply 522-3"
+    ],
+    "trigger message 523": [
+        "savage reply 523-1",
+        "savage reply 523-2",
+        "savage reply 523-3"
+    ],
+    "trigger message 524": [
+        "savage reply 524-1",
+        "savage reply 524-2",
+        "savage reply 524-3"
+    ],
+    "trigger message 525": [
+        "savage reply 525-1",
+        "savage reply 525-2",
+        "savage reply 525-3"
+    ],
+    "trigger message 526": [
+        "savage reply 526-1",
+        "savage reply 526-2",
+        "savage reply 526-3"
+    ],
+    "trigger message 527": [
+        "savage reply 527-1",
+        "savage reply 527-2",
+        "savage reply 527-3"
+    ],
+    "trigger message 528": [
+        "savage reply 528-1",
+        "savage reply 528-2",
+        "savage reply 528-3"
+    ],
+    "trigger message 529": [
+        "savage reply 529-1",
+        "savage reply 529-2",
+        "savage reply 529-3"
+    ],
+    "trigger message 530": [
+        "savage reply 530-1",
+        "savage reply 530-2",
+        "savage reply 530-3"
+    ],
+    "trigger message 531": [
+        "savage reply 531-1",
+        "savage reply 531-2",
+        "savage reply 531-3"
+    ],
+    "trigger message 532": [
+        "savage reply 532-1",
+        "savage reply 532-2",
+        "savage reply 532-3"
+    ],
+    "trigger message 533": [
+        "savage reply 533-1",
+        "savage reply 533-2",
+        "savage reply 533-3"
+    ],
+    "trigger message 534": [
+        "savage reply 534-1",
+        "savage reply 534-2",
+        "savage reply 534-3"
+    ],
+    "trigger message 535": [
+        "savage reply 535-1",
+        "savage reply 535-2",
+        "savage reply 535-3"
+    ],
+    "trigger message 536": [
+        "savage reply 536-1",
+        "savage reply 536-2",
+        "savage reply 536-3"
+    ],
+    "trigger message 537": [
+        "savage reply 537-1",
+        "savage reply 537-2",
+        "savage reply 537-3"
+    ],
+    "trigger message 538": [
+        "savage reply 538-1",
+        "savage reply 538-2",
+        "savage reply 538-3"
+    ],
+    "trigger message 539": [
+        "savage reply 539-1",
+        "savage reply 539-2",
+        "savage reply 539-3"
+    ],
+    "trigger message 540": [
+        "savage reply 540-1",
+        "savage reply 540-2",
+        "savage reply 540-3"
+    ],
+    "trigger message 541": [
+        "savage reply 541-1",
+        "savage reply 541-2",
+        "savage reply 541-3"
+    ],
+    "trigger message 542": [
+        "savage reply 542-1",
+        "savage reply 542-2",
+        "savage reply 542-3"
+    ],
+    "trigger message 543": [
+        "savage reply 543-1",
+        "savage reply 543-2",
+        "savage reply 543-3"
+    ],
+    "trigger message 544": [
+        "savage reply 544-1",
+        "savage reply 544-2",
+        "savage reply 544-3"
+    ],
+    "trigger message 545": [
+        "savage reply 545-1",
+        "savage reply 545-2",
+        "savage reply 545-3"
+    ],
+    "trigger message 546": [
+        "savage reply 546-1",
+        "savage reply 546-2",
+        "savage reply 546-3"
+    ],
+    "trigger message 547": [
+        "savage reply 547-1",
+        "savage reply 547-2",
+        "savage reply 547-3"
+    ],
+    "trigger message 548": [
+        "savage reply 548-1",
+        "savage reply 548-2",
+        "savage reply 548-3"
+    ],
+    "trigger message 549": [
+        "savage reply 549-1",
+        "savage reply 549-2",
+        "savage reply 549-3"
+    ],
+    "trigger message 550": [
+        "savage reply 550-1",
+        "savage reply 550-2",
+        "savage reply 550-3"
+    ],
+    "trigger message 551": [
+        "savage reply 551-1",
+        "savage reply 551-2",
+        "savage reply 551-3"
+    ],
+    "trigger message 552": [
+        "savage reply 552-1",
+        "savage reply 552-2",
+        "savage reply 552-3"
+    ],
+    "trigger message 553": [
+        "savage reply 553-1",
+        "savage reply 553-2",
+        "savage reply 553-3"
+    ],
+    "trigger message 554": [
+        "savage reply 554-1",
+        "savage reply 554-2",
+        "savage reply 554-3"
+    ],
+    "trigger message 555": [
+        "savage reply 555-1",
+        "savage reply 555-2",
+        "savage reply 555-3"
+    ],
+    "trigger message 556": [
+        "savage reply 556-1",
+        "savage reply 556-2",
+        "savage reply 556-3"
+    ],
+    "trigger message 557": [
+        "savage reply 557-1",
+        "savage reply 557-2",
+        "savage reply 557-3"
+    ],
+    "trigger message 558": [
+        "savage reply 558-1",
+        "savage reply 558-2",
+        "savage reply 558-3"
+    ],
+    "trigger message 559": [
+        "savage reply 559-1",
+        "savage reply 559-2",
+        "savage reply 559-3"
+    ],
+    "trigger message 560": [
+        "savage reply 560-1",
+        "savage reply 560-2",
+        "savage reply 560-3"
+    ],
+    "trigger message 561": [
+        "savage reply 561-1",
+        "savage reply 561-2",
+        "savage reply 561-3"
+    ],
+    "trigger message 562": [
+        "savage reply 562-1",
+        "savage reply 562-2",
+        "savage reply 562-3"
+    ],
+    "trigger message 563": [
+        "savage reply 563-1",
+        "savage reply 563-2",
+        "savage reply 563-3"
+    ],
+    "trigger message 564": [
+        "savage reply 564-1",
+        "savage reply 564-2",
+        "savage reply 564-3"
+    ],
+    "trigger message 565": [
+        "savage reply 565-1",
+        "savage reply 565-2",
+        "savage reply 565-3"
+    ],
+    "trigger message 566": [
+        "savage reply 566-1",
+        "savage reply 566-2",
+        "savage reply 566-3"
+    ],
+    "trigger message 567": [
+        "savage reply 567-1",
+        "savage reply 567-2",
+        "savage reply 567-3"
+    ],
+    "trigger message 568": [
+        "savage reply 568-1",
+        "savage reply 568-2",
+        "savage reply 568-3"
+    ],
+    "trigger message 569": [
+        "savage reply 569-1",
+        "savage reply 569-2",
+        "savage reply 569-3"
+    ],
+    "trigger message 570": [
+        "savage reply 570-1",
+        "savage reply 570-2",
+        "savage reply 570-3"
+    ],
+    "trigger message 571": [
+        "savage reply 571-1",
+        "savage reply 571-2",
+        "savage reply 571-3"
+    ],
+    "trigger message 572": [
+        "savage reply 572-1",
+        "savage reply 572-2",
+        "savage reply 572-3"
+    ],
+    "trigger message 573": [
+        "savage reply 573-1",
+        "savage reply 573-2",
+        "savage reply 573-3"
+    ],
+    "trigger message 574": [
+        "savage reply 574-1",
+        "savage reply 574-2",
+        "savage reply 574-3"
+    ],
+    "trigger message 575": [
+        "savage reply 575-1",
+        "savage reply 575-2",
+        "savage reply 575-3"
+    ],
+    "trigger message 576": [
+        "savage reply 576-1",
+        "savage reply 576-2",
+        "savage reply 576-3"
+    ],
+    "trigger message 577": [
+        "savage reply 577-1",
+        "savage reply 577-2",
+        "savage reply 577-3"
+    ],
+    "trigger message 578": [
+        "savage reply 578-1",
+        "savage reply 578-2",
+        "savage reply 578-3"
+    ],
+    "trigger message 579": [
+        "savage reply 579-1",
+        "savage reply 579-2",
+        "savage reply 579-3"
+    ],
+    "trigger message 580": [
+        "savage reply 580-1",
+        "savage reply 580-2",
+        "savage reply 580-3"
+    ],
+    "trigger message 581": [
+        "savage reply 581-1",
+        "savage reply 581-2",
+        "savage reply 581-3"
+    ],
+    "trigger message 582": [
+        "savage reply 582-1",
+        "savage reply 582-2",
+        "savage reply 582-3"
+    ],
+    "trigger message 583": [
+        "savage reply 583-1",
+        "savage reply 583-2",
+        "savage reply 583-3"
+    ],
+    "trigger message 584": [
+        "savage reply 584-1",
+        "savage reply 584-2",
+        "savage reply 584-3"
+    ],
+    "trigger message 585": [
+        "savage reply 585-1",
+        "savage reply 585-2",
+        "savage reply 585-3"
+    ],
+    "trigger message 586": [
+        "savage reply 586-1",
+        "savage reply 586-2",
+        "savage reply 586-3"
+    ],
+    "trigger message 587": [
+        "savage reply 587-1",
+        "savage reply 587-2",
+        "savage reply 587-3"
+    ],
+    "trigger message 588": [
+        "savage reply 588-1",
+        "savage reply 588-2",
+        "savage reply 588-3"
+    ],
+    "trigger message 589": [
+        "savage reply 589-1",
+        "savage reply 589-2",
+        "savage reply 589-3"
+    ],
+    "trigger message 590": [
+        "savage reply 590-1",
+        "savage reply 590-2",
+        "savage reply 590-3"
+    ],
+    "trigger message 591": [
+        "savage reply 591-1",
+        "savage reply 591-2",
+        "savage reply 591-3"
+    ],
+    "trigger message 592": [
+        "savage reply 592-1",
+        "savage reply 592-2",
+        "savage reply 592-3"
+    ],
+    "trigger message 593": [
+        "savage reply 593-1",
+        "savage reply 593-2",
+        "savage reply 593-3"
+    ],
+    "trigger message 594": [
+        "savage reply 594-1",
+        "savage reply 594-2",
+        "savage reply 594-3"
+    ],
+    "trigger message 595": [
+        "savage reply 595-1",
+        "savage reply 595-2",
+        "savage reply 595-3"
+    ],
+    "trigger message 596": [
+        "savage reply 596-1",
+        "savage reply 596-2",
+        "savage reply 596-3"
+    ],
+    "trigger message 597": [
+        "savage reply 597-1",
+        "savage reply 597-2",
+        "savage reply 597-3"
+    ],
+    "trigger message 598": [
+        "savage reply 598-1",
+        "savage reply 598-2",
+        "savage reply 598-3"
+    ],
+    "trigger message 599": [
+        "savage reply 599-1",
+        "savage reply 599-2",
+        "savage reply 599-3"
+    ],
+    "trigger message 600": [
+        "savage reply 600-1",
+        "savage reply 600-2",
+        "savage reply 600-3"
+    ],
+    "trigger message 601": [
+        "savage reply 601-1",
+        "savage reply 601-2",
+        "savage reply 601-3"
+    ],
+    "trigger message 602": [
+        "savage reply 602-1",
+        "savage reply 602-2",
+        "savage reply 602-3"
+    ],
+    "trigger message 603": [
+        "savage reply 603-1",
+        "savage reply 603-2",
+        "savage reply 603-3"
+    ],
+    "trigger message 604": [
+        "savage reply 604-1",
+        "savage reply 604-2",
+        "savage reply 604-3"
+    ],
+    "trigger message 605": [
+        "savage reply 605-1",
+        "savage reply 605-2",
+        "savage reply 605-3"
+    ],
+    "trigger message 606": [
+        "savage reply 606-1",
+        "savage reply 606-2",
+        "savage reply 606-3"
+    ],
+    "trigger message 607": [
+        "savage reply 607-1",
+        "savage reply 607-2",
+        "savage reply 607-3"
+    ],
+    "trigger message 608": [
+        "savage reply 608-1",
+        "savage reply 608-2",
+        "savage reply 608-3"
+    ],
+    "trigger message 609": [
+        "savage reply 609-1",
+        "savage reply 609-2",
+        "savage reply 609-3"
+    ],
+    "trigger message 610": [
+        "savage reply 610-1",
+        "savage reply 610-2",
+        "savage reply 610-3"
+    ],
+    "trigger message 611": [
+        "savage reply 611-1",
+        "savage reply 611-2",
+        "savage reply 611-3"
+    ],
+    "trigger message 612": [
+        "savage reply 612-1",
+        "savage reply 612-2",
+        "savage reply 612-3"
+    ],
+    "trigger message 613": [
+        "savage reply 613-1",
+        "savage reply 613-2",
+        "savage reply 613-3"
+    ],
+    "trigger message 614": [
+        "savage reply 614-1",
+        "savage reply 614-2",
+        "savage reply 614-3"
+    ],
+    "trigger message 615": [
+        "savage reply 615-1",
+        "savage reply 615-2",
+        "savage reply 615-3"
+    ],
+    "trigger message 616": [
+        "savage reply 616-1",
+        "savage reply 616-2",
+        "savage reply 616-3"
+    ],
+    "trigger message 617": [
+        "savage reply 617-1",
+        "savage reply 617-2",
+        "savage reply 617-3"
+    ],
+    "trigger message 618": [
+        "savage reply 618-1",
+        "savage reply 618-2",
+        "savage reply 618-3"
+    ],
+    "trigger message 619": [
+        "savage reply 619-1",
+        "savage reply 619-2",
+        "savage reply 619-3"
+    ],
+    "trigger message 620": [
+        "savage reply 620-1",
+        "savage reply 620-2",
+        "savage reply 620-3"
+    ],
+    "trigger message 621": [
+        "savage reply 621-1",
+        "savage reply 621-2",
+        "savage reply 621-3"
+    ],
+    "trigger message 622": [
+        "savage reply 622-1",
+        "savage reply 622-2",
+        "savage reply 622-3"
+    ],
+    "trigger message 623": [
+        "savage reply 623-1",
+        "savage reply 623-2",
+        "savage reply 623-3"
+    ],
+    "trigger message 624": [
+        "savage reply 624-1",
+        "savage reply 624-2",
+        "savage reply 624-3"
+    ],
+    "trigger message 625": [
+        "savage reply 625-1",
+        "savage reply 625-2",
+        "savage reply 625-3"
+    ],
+    "trigger message 626": [
+        "savage reply 626-1",
+        "savage reply 626-2",
+        "savage reply 626-3"
+    ],
+    "trigger message 627": [
+        "savage reply 627-1",
+        "savage reply 627-2",
+        "savage reply 627-3"
+    ],
+    "trigger message 628": [
+        "savage reply 628-1",
+        "savage reply 628-2",
+        "savage reply 628-3"
+    ],
+    "trigger message 629": [
+        "savage reply 629-1",
+        "savage reply 629-2",
+        "savage reply 629-3"
+    ],
+    "trigger message 630": [
+        "savage reply 630-1",
+        "savage reply 630-2",
+        "savage reply 630-3"
+    ],
+    "trigger message 631": [
+        "savage reply 631-1",
+        "savage reply 631-2",
+        "savage reply 631-3"
+    ],
+    "trigger message 632": [
+        "savage reply 632-1",
+        "savage reply 632-2",
+        "savage reply 632-3"
+    ],
+    "trigger message 633": [
+        "savage reply 633-1",
+        "savage reply 633-2",
+        "savage reply 633-3"
+    ],
+    "trigger message 634": [
+        "savage reply 634-1",
+        "savage reply 634-2",
+        "savage reply 634-3"
+    ],
+    "trigger message 635": [
+        "savage reply 635-1",
+        "savage reply 635-2",
+        "savage reply 635-3"
+    ],
+    "trigger message 636": [
+        "savage reply 636-1",
+        "savage reply 636-2",
+        "savage reply 636-3"
+    ],
+    "trigger message 637": [
+        "savage reply 637-1",
+        "savage reply 637-2",
+        "savage reply 637-3"
+    ],
+    "trigger message 638": [
+        "savage reply 638-1",
+        "savage reply 638-2",
+        "savage reply 638-3"
+    ],
+    "trigger message 639": [
+        "savage reply 639-1",
+        "savage reply 639-2",
+        "savage reply 639-3"
+    ],
+    "trigger message 640": [
+        "savage reply 640-1",
+        "savage reply 640-2",
+        "savage reply 640-3"
+    ],
+    "trigger message 641": [
+        "savage reply 641-1",
+        "savage reply 641-2",
+        "savage reply 641-3"
+    ],
+    "trigger message 642": [
+        "savage reply 642-1",
+        "savage reply 642-2",
+        "savage reply 642-3"
+    ],
+    "trigger message 643": [
+        "savage reply 643-1",
+        "savage reply 643-2",
+        "savage reply 643-3"
+    ],
+    "trigger message 644": [
+        "savage reply 644-1",
+        "savage reply 644-2",
+        "savage reply 644-3"
+    ],
+    "trigger message 645": [
+        "savage reply 645-1",
+        "savage reply 645-2",
+        "savage reply 645-3"
+    ],
+    "trigger message 646": [
+        "savage reply 646-1",
+        "savage reply 646-2",
+        "savage reply 646-3"
+    ],
+    "trigger message 647": [
+        "savage reply 647-1",
+        "savage reply 647-2",
+        "savage reply 647-3"
+    ],
+    "trigger message 648": [
+        "savage reply 648-1",
+        "savage reply 648-2",
+        "savage reply 648-3"
+    ],
+    "trigger message 649": [
+        "savage reply 649-1",
+        "savage reply 649-2",
+        "savage reply 649-3"
+    ],
+    "trigger message 650": [
+        "savage reply 650-1",
+        "savage reply 650-2",
+        "savage reply 650-3"
+    ],
+    "trigger message 651": [
+        "savage reply 651-1",
+        "savage reply 651-2",
+        "savage reply 651-3"
+    ],
+    "trigger message 652": [
+        "savage reply 652-1",
+        "savage reply 652-2",
+        "savage reply 652-3"
+    ],
+    "trigger message 653": [
+        "savage reply 653-1",
+        "savage reply 653-2",
+        "savage reply 653-3"
+    ],
+    "trigger message 654": [
+        "savage reply 654-1",
+        "savage reply 654-2",
+        "savage reply 654-3"
+    ],
+    "trigger message 655": [
+        "savage reply 655-1",
+        "savage reply 655-2",
+        "savage reply 655-3"
+    ],
+    "trigger message 656": [
+        "savage reply 656-1",
+        "savage reply 656-2",
+        "savage reply 656-3"
+    ],
+    "trigger message 657": [
+        "savage reply 657-1",
+        "savage reply 657-2",
+        "savage reply 657-3"
+    ],
+    "trigger message 658": [
+        "savage reply 658-1",
+        "savage reply 658-2",
+        "savage reply 658-3"
+    ],
+    "trigger message 659": [
+        "savage reply 659-1",
+        "savage reply 659-2",
+        "savage reply 659-3"
+    ],
+    "trigger message 660": [
+        "savage reply 660-1",
+        "savage reply 660-2",
+        "savage reply 660-3"
+    ],
+    "trigger message 661": [
+        "savage reply 661-1",
+        "savage reply 661-2",
+        "savage reply 661-3"
+    ],
+    "trigger message 662": [
+        "savage reply 662-1",
+        "savage reply 662-2",
+        "savage reply 662-3"
+    ],
+    "trigger message 663": [
+        "savage reply 663-1",
+        "savage reply 663-2",
+        "savage reply 663-3"
+    ],
+    "trigger message 664": [
+        "savage reply 664-1",
+        "savage reply 664-2",
+        "savage reply 664-3"
+    ],
+    "trigger message 665": [
+        "savage reply 665-1",
+        "savage reply 665-2",
+        "savage reply 665-3"
+    ],
+    "trigger message 666": [
+        "savage reply 666-1",
+        "savage reply 666-2",
+        "savage reply 666-3"
+    ],
+    "trigger message 667": [
+        "savage reply 667-1",
+        "savage reply 667-2",
+        "savage reply 667-3"
+    ],
+    "trigger message 668": [
+        "savage reply 668-1",
+        "savage reply 668-2",
+        "savage reply 668-3"
+    ],
+    "trigger message 669": [
+        "savage reply 669-1",
+        "savage reply 669-2",
+        "savage reply 669-3"
+    ],
+    "trigger message 670": [
+        "savage reply 670-1",
+        "savage reply 670-2",
+        "savage reply 670-3"
+    ],
+    "trigger message 671": [
+        "savage reply 671-1",
+        "savage reply 671-2",
+        "savage reply 671-3"
+    ],
+    "trigger message 672": [
+        "savage reply 672-1",
+        "savage reply 672-2",
+        "savage reply 672-3"
+    ],
+    "trigger message 673": [
+        "savage reply 673-1",
+        "savage reply 673-2",
+        "savage reply 673-3"
+    ],
+    "trigger message 674": [
+        "savage reply 674-1",
+        "savage reply 674-2",
+        "savage reply 674-3"
+    ],
+    "trigger message 675": [
+        "savage reply 675-1",
+        "savage reply 675-2",
+        "savage reply 675-3"
+    ],
+    "trigger message 676": [
+        "savage reply 676-1",
+        "savage reply 676-2",
+        "savage reply 676-3"
+    ],
+    "trigger message 677": [
+        "savage reply 677-1",
+        "savage reply 677-2",
+        "savage reply 677-3"
+    ],
+    "trigger message 678": [
+        "savage reply 678-1",
+        "savage reply 678-2",
+        "savage reply 678-3"
+    ],
+    "trigger message 679": [
+        "savage reply 679-1",
+        "savage reply 679-2",
+        "savage reply 679-3"
+    ],
+    "trigger message 680": [
+        "savage reply 680-1",
+        "savage reply 680-2",
+        "savage reply 680-3"
+    ],
+    "trigger message 681": [
+        "savage reply 681-1",
+        "savage reply 681-2",
+        "savage reply 681-3"
+    ],
+    "trigger message 682": [
+        "savage reply 682-1",
+        "savage reply 682-2",
+        "savage reply 682-3"
+    ],
+    "trigger message 683": [
+        "savage reply 683-1",
+        "savage reply 683-2",
+        "savage reply 683-3"
+    ],
+    "trigger message 684": [
+        "savage reply 684-1",
+        "savage reply 684-2",
+        "savage reply 684-3"
+    ],
+    "trigger message 685": [
+        "savage reply 685-1",
+        "savage reply 685-2",
+        "savage reply 685-3"
+    ],
+    "trigger message 686": [
+        "savage reply 686-1",
+        "savage reply 686-2",
+        "savage reply 686-3"
+    ],
+    "trigger message 687": [
+        "savage reply 687-1",
+        "savage reply 687-2",
+        "savage reply 687-3"
+    ],
+    "trigger message 688": [
+        "savage reply 688-1",
+        "savage reply 688-2",
+        "savage reply 688-3"
+    ],
+    "trigger message 689": [
+        "savage reply 689-1",
+        "savage reply 689-2",
+        "savage reply 689-3"
+    ],
+    "trigger message 690": [
+        "savage reply 690-1",
+        "savage reply 690-2",
+        "savage reply 690-3"
+    ],
+    "trigger message 691": [
+        "savage reply 691-1",
+        "savage reply 691-2",
+        "savage reply 691-3"
+    ],
+    "trigger message 692": [
+        "savage reply 692-1",
+        "savage reply 692-2",
+        "savage reply 692-3"
+    ],
+    "trigger message 693": [
+        "savage reply 693-1",
+        "savage reply 693-2",
+        "savage reply 693-3"
+    ],
+    "trigger message 694": [
+        "savage reply 694-1",
+        "savage reply 694-2",
+        "savage reply 694-3"
+    ],
+    "trigger message 695": [
+        "savage reply 695-1",
+        "savage reply 695-2",
+        "savage reply 695-3"
+    ],
+    "trigger message 696": [
+        "savage reply 696-1",
+        "savage reply 696-2",
+        "savage reply 696-3"
+    ],
+    "trigger message 697": [
+        "savage reply 697-1",
+        "savage reply 697-2",
+        "savage reply 697-3"
+    ],
+    "trigger message 698": [
+        "savage reply 698-1",
+        "savage reply 698-2",
+        "savage reply 698-3"
+    ],
+    "trigger message 699": [
+        "savage reply 699-1",
+        "savage reply 699-2",
+        "savage reply 699-3"
+    ],
+    "trigger message 700": [
+        "savage reply 700-1",
+        "savage reply 700-2",
+        "savage reply 700-3"
+    ],
+    "trigger message 701": [
+        "savage reply 701-1",
+        "savage reply 701-2",
+        "savage reply 701-3"
+    ],
+    "trigger message 702": [
+        "savage reply 702-1",
+        "savage reply 702-2",
+        "savage reply 702-3"
+    ],
+    "trigger message 703": [
+        "savage reply 703-1",
+        "savage reply 703-2",
+        "savage reply 703-3"
+    ],
+    "trigger message 704": [
+        "savage reply 704-1",
+        "savage reply 704-2",
+        "savage reply 704-3"
+    ],
+    "trigger message 705": [
+        "savage reply 705-1",
+        "savage reply 705-2",
+        "savage reply 705-3"
+    ],
+    "trigger message 706": [
+        "savage reply 706-1",
+        "savage reply 706-2",
+        "savage reply 706-3"
+    ],
+    "trigger message 707": [
+        "savage reply 707-1",
+        "savage reply 707-2",
+        "savage reply 707-3"
+    ],
+    "trigger message 708": [
+        "savage reply 708-1",
+        "savage reply 708-2",
+        "savage reply 708-3"
+    ],
+    "trigger message 709": [
+        "savage reply 709-1",
+        "savage reply 709-2",
+        "savage reply 709-3"
+    ],
+    "trigger message 710": [
+        "savage reply 710-1",
+        "savage reply 710-2",
+        "savage reply 710-3"
+    ],
+    "trigger message 711": [
+        "savage reply 711-1",
+        "savage reply 711-2",
+        "savage reply 711-3"
+    ],
+    "trigger message 712": [
+        "savage reply 712-1",
+        "savage reply 712-2",
+        "savage reply 712-3"
+    ],
+    "trigger message 713": [
+        "savage reply 713-1",
+        "savage reply 713-2",
+        "savage reply 713-3"
+    ],
+    "trigger message 714": [
+        "savage reply 714-1",
+        "savage reply 714-2",
+        "savage reply 714-3"
+    ],
+    "trigger message 715": [
+        "savage reply 715-1",
+        "savage reply 715-2",
+        "savage reply 715-3"
+    ],
+    "trigger message 716": [
+        "savage reply 716-1",
+        "savage reply 716-2",
+        "savage reply 716-3"
+    ],
+    "trigger message 717": [
+        "savage reply 717-1",
+        "savage reply 717-2",
+        "savage reply 717-3"
+    ],
+    "trigger message 718": [
+        "savage reply 718-1",
+        "savage reply 718-2",
+        "savage reply 718-3"
+    ],
+    "trigger message 719": [
+        "savage reply 719-1",
+        "savage reply 719-2",
+        "savage reply 719-3"
+    ],
+    "trigger message 720": [
+        "savage reply 720-1",
+        "savage reply 720-2",
+        "savage reply 720-3"
+    ],
+    "trigger message 721": [
+        "savage reply 721-1",
+        "savage reply 721-2",
+        "savage reply 721-3"
+    ],
+    "trigger message 722": [
+        "savage reply 722-1",
+        "savage reply 722-2",
+        "savage reply 722-3"
+    ],
+    "trigger message 723": [
+        "savage reply 723-1",
+        "savage reply 723-2",
+        "savage reply 723-3"
+    ],
+    "trigger message 724": [
+        "savage reply 724-1",
+        "savage reply 724-2",
+        "savage reply 724-3"
+    ],
+    "trigger message 725": [
+        "savage reply 725-1",
+        "savage reply 725-2",
+        "savage reply 725-3"
+    ],
+    "trigger message 726": [
+        "savage reply 726-1",
+        "savage reply 726-2",
+        "savage reply 726-3"
+    ],
+    "trigger message 727": [
+        "savage reply 727-1",
+        "savage reply 727-2",
+        "savage reply 727-3"
+    ],
+    "trigger message 728": [
+        "savage reply 728-1",
+        "savage reply 728-2",
+        "savage reply 728-3"
+    ],
+    "trigger message 729": [
+        "savage reply 729-1",
+        "savage reply 729-2",
+        "savage reply 729-3"
+    ],
+    "trigger message 730": [
+        "savage reply 730-1",
+        "savage reply 730-2",
+        "savage reply 730-3"
+    ],
+    "trigger message 731": [
+        "savage reply 731-1",
+        "savage reply 731-2",
+        "savage reply 731-3"
+    ],
+    "trigger message 732": [
+        "savage reply 732-1",
+        "savage reply 732-2",
+        "savage reply 732-3"
+    ],
+    "trigger message 733": [
+        "savage reply 733-1",
+        "savage reply 733-2",
+        "savage reply 733-3"
+    ],
+    "trigger message 734": [
+        "savage reply 734-1",
+        "savage reply 734-2",
+        "savage reply 734-3"
+    ],
+    "trigger message 735": [
+        "savage reply 735-1",
+        "savage reply 735-2",
+        "savage reply 735-3"
+    ],
+    "trigger message 736": [
+        "savage reply 736-1",
+        "savage reply 736-2",
+        "savage reply 736-3"
+    ],
+    "trigger message 737": [
+        "savage reply 737-1",
+        "savage reply 737-2",
+        "savage reply 737-3"
+    ],
+    "trigger message 738": [
+        "savage reply 738-1",
+        "savage reply 738-2",
+        "savage reply 738-3"
+    ],
+    "trigger message 739": [
+        "savage reply 739-1",
+        "savage reply 739-2",
+        "savage reply 739-3"
+    ],
+    "trigger message 740": [
+        "savage reply 740-1",
+        "savage reply 740-2",
+        "savage reply 740-3"
+    ],
+    "trigger message 741": [
+        "savage reply 741-1",
+        "savage reply 741-2",
+        "savage reply 741-3"
+    ],
+    "trigger message 742": [
+        "savage reply 742-1",
+        "savage reply 742-2",
+        "savage reply 742-3"
+    ],
+    "trigger message 743": [
+        "savage reply 743-1",
+        "savage reply 743-2",
+        "savage reply 743-3"
+    ],
+    "trigger message 744": [
+        "savage reply 744-1",
+        "savage reply 744-2",
+        "savage reply 744-3"
+    ],
+    "trigger message 745": [
+        "savage reply 745-1",
+        "savage reply 745-2",
+        "savage reply 745-3"
+    ],
+    "trigger message 746": [
+        "savage reply 746-1",
+        "savage reply 746-2",
+        "savage reply 746-3"
+    ],
+    "trigger message 747": [
+        "savage reply 747-1",
+        "savage reply 747-2",
+        "savage reply 747-3"
+    ],
+    "trigger message 748": [
+        "savage reply 748-1",
+        "savage reply 748-2",
+        "savage reply 748-3"
+    ],
+    "trigger message 749": [
+        "savage reply 749-1",
+        "savage reply 749-2",
+        "savage reply 749-3"
+    ],
+    "trigger message 750": [
+        "savage reply 750-1",
+        "savage reply 750-2",
+        "savage reply 750-3"
+    ],
+    "trigger message 751": [
+        "savage reply 751-1",
+        "savage reply 751-2",
+        "savage reply 751-3"
+    ],
+    "trigger message 752": [
+        "savage reply 752-1",
+        "savage reply 752-2",
+        "savage reply 752-3"
+    ],
+    "trigger message 753": [
+        "savage reply 753-1",
+        "savage reply 753-2",
+        "savage reply 753-3"
+    ],
+    "trigger message 754": [
+        "savage reply 754-1",
+        "savage reply 754-2",
+        "savage reply 754-3"
+    ],
+    "trigger message 755": [
+        "savage reply 755-1",
+        "savage reply 755-2",
+        "savage reply 755-3"
+    ],
+    "trigger message 756": [
+        "savage reply 756-1",
+        "savage reply 756-2",
+        "savage reply 756-3"
+    ],
+    "trigger message 757": [
+        "savage reply 757-1",
+        "savage reply 757-2",
+        "savage reply 757-3"
+    ],
+    "trigger message 758": [
+        "savage reply 758-1",
+        "savage reply 758-2",
+        "savage reply 758-3"
+    ],
+    "trigger message 759": [
+        "savage reply 759-1",
+        "savage reply 759-2",
+        "savage reply 759-3"
+    ],
+    "trigger message 760": [
+        "savage reply 760-1",
+        "savage reply 760-2",
+        "savage reply 760-3"
+    ],
+    "trigger message 761": [
+        "savage reply 761-1",
+        "savage reply 761-2",
+        "savage reply 761-3"
+    ],
+    "trigger message 762": [
+        "savage reply 762-1",
+        "savage reply 762-2",
+        "savage reply 762-3"
+    ],
+    "trigger message 763": [
+        "savage reply 763-1",
+        "savage reply 763-2",
+        "savage reply 763-3"
+    ],
+    "trigger message 764": [
+        "savage reply 764-1",
+        "savage reply 764-2",
+        "savage reply 764-3"
+    ],
+    "trigger message 765": [
+        "savage reply 765-1",
+        "savage reply 765-2",
+        "savage reply 765-3"
+    ],
+    "trigger message 766": [
+        "savage reply 766-1",
+        "savage reply 766-2",
+        "savage reply 766-3"
+    ],
+    "trigger message 767": [
+        "savage reply 767-1",
+        "savage reply 767-2",
+        "savage reply 767-3"
+    ],
+    "trigger message 768": [
+        "savage reply 768-1",
+        "savage reply 768-2",
+        "savage reply 768-3"
+    ],
+    "trigger message 769": [
+        "savage reply 769-1",
+        "savage reply 769-2",
+        "savage reply 769-3"
+    ],
+    "trigger message 770": [
+        "savage reply 770-1",
+        "savage reply 770-2",
+        "savage reply 770-3"
+    ],
+    "trigger message 771": [
+        "savage reply 771-1",
+        "savage reply 771-2",
+        "savage reply 771-3"
+    ],
+    "trigger message 772": [
+        "savage reply 772-1",
+        "savage reply 772-2",
+        "savage reply 772-3"
+    ],
+    "trigger message 773": [
+        "savage reply 773-1",
+        "savage reply 773-2",
+        "savage reply 773-3"
+    ],
+    "trigger message 774": [
+        "savage reply 774-1",
+        "savage reply 774-2",
+        "savage reply 774-3"
+    ],
+    "trigger message 775": [
+        "savage reply 775-1",
+        "savage reply 775-2",
+        "savage reply 775-3"
+    ],
+    "trigger message 776": [
+        "savage reply 776-1",
+        "savage reply 776-2",
+        "savage reply 776-3"
+    ],
+    "trigger message 777": [
+        "savage reply 777-1",
+        "savage reply 777-2",
+        "savage reply 777-3"
+    ],
+    "trigger message 778": [
+        "savage reply 778-1",
+        "savage reply 778-2",
+        "savage reply 778-3"
+    ],
+    "trigger message 779": [
+        "savage reply 779-1",
+        "savage reply 779-2",
+        "savage reply 779-3"
+    ],
+    "trigger message 780": [
+        "savage reply 780-1",
+        "savage reply 780-2",
+        "savage reply 780-3"
+    ],
+    "trigger message 781": [
+        "savage reply 781-1",
+        "savage reply 781-2",
+        "savage reply 781-3"
+    ],
+    "trigger message 782": [
+        "savage reply 782-1",
+        "savage reply 782-2",
+        "savage reply 782-3"
+    ],
+    "trigger message 783": [
+        "savage reply 783-1",
+        "savage reply 783-2",
+        "savage reply 783-3"
+    ],
+    "trigger message 784": [
+        "savage reply 784-1",
+        "savage reply 784-2",
+        "savage reply 784-3"
+    ],
+    "trigger message 785": [
+        "savage reply 785-1",
+        "savage reply 785-2",
+        "savage reply 785-3"
+    ],
+    "trigger message 786": [
+        "savage reply 786-1",
+        "savage reply 786-2",
+        "savage reply 786-3"
+    ],
+    "trigger message 787": [
+        "savage reply 787-1",
+        "savage reply 787-2",
+        "savage reply 787-3"
+    ],
+    "trigger message 788": [
+        "savage reply 788-1",
+        "savage reply 788-2",
+        "savage reply 788-3"
+    ],
+    "trigger message 789": [
+        "savage reply 789-1",
+        "savage reply 789-2",
+        "savage reply 789-3"
+    ],
+    "trigger message 790": [
+        "savage reply 790-1",
+        "savage reply 790-2",
+        "savage reply 790-3"
+    ],
+    "trigger message 791": [
+        "savage reply 791-1",
+        "savage reply 791-2",
+        "savage reply 791-3"
+    ],
+    "trigger message 792": [
+        "savage reply 792-1",
+        "savage reply 792-2",
+        "savage reply 792-3"
+    ],
+    "trigger message 793": [
+        "savage reply 793-1",
+        "savage reply 793-2",
+        "savage reply 793-3"
+    ],
+    "trigger message 794": [
+        "savage reply 794-1",
+        "savage reply 794-2",
+        "savage reply 794-3"
+    ],
+    "trigger message 795": [
+        "savage reply 795-1",
+        "savage reply 795-2",
+        "savage reply 795-3"
+    ],
+    "trigger message 796": [
+        "savage reply 796-1",
+        "savage reply 796-2",
+        "savage reply 796-3"
+    ],
+    "trigger message 797": [
+        "savage reply 797-1",
+        "savage reply 797-2",
+        "savage reply 797-3"
+    ],
+    "trigger message 798": [
+        "savage reply 798-1",
+        "savage reply 798-2",
+        "savage reply 798-3"
+    ],
+    "trigger message 799": [
+        "savage reply 799-1",
+        "savage reply 799-2",
+        "savage reply 799-3"
+    ],
+    "trigger message 800": [
+        "savage reply 800-1",
+        "savage reply 800-2",
+        "savage reply 800-3"
+    ],
+    "trigger message 801": [
+        "savage reply 801-1",
+        "savage reply 801-2",
+        "savage reply 801-3"
+    ],
+    "trigger message 802": [
+        "savage reply 802-1",
+        "savage reply 802-2",
+        "savage reply 802-3"
+    ],
+    "trigger message 803": [
+        "savage reply 803-1",
+        "savage reply 803-2",
+        "savage reply 803-3"
+    ],
+    "trigger message 804": [
+        "savage reply 804-1",
+        "savage reply 804-2",
+        "savage reply 804-3"
+    ],
+    "trigger message 805": [
+        "savage reply 805-1",
+        "savage reply 805-2",
+        "savage reply 805-3"
+    ],
+    "trigger message 806": [
+        "savage reply 806-1",
+        "savage reply 806-2",
+        "savage reply 806-3"
+    ],
+    "trigger message 807": [
+        "savage reply 807-1",
+        "savage reply 807-2",
+        "savage reply 807-3"
+    ],
+    "trigger message 808": [
+        "savage reply 808-1",
+        "savage reply 808-2",
+        "savage reply 808-3"
+    ],
+    "trigger message 809": [
+        "savage reply 809-1",
+        "savage reply 809-2",
+        "savage reply 809-3"
+    ],
+    "trigger message 810": [
+        "savage reply 810-1",
+        "savage reply 810-2",
+        "savage reply 810-3"
+    ],
+    "trigger message 811": [
+        "savage reply 811-1",
+        "savage reply 811-2",
+        "savage reply 811-3"
+    ],
+    "trigger message 812": [
+        "savage reply 812-1",
+        "savage reply 812-2",
+        "savage reply 812-3"
+    ],
+    "trigger message 813": [
+        "savage reply 813-1",
+        "savage reply 813-2",
+        "savage reply 813-3"
+    ],
+    "trigger message 814": [
+        "savage reply 814-1",
+        "savage reply 814-2",
+        "savage reply 814-3"
+    ],
+    "trigger message 815": [
+        "savage reply 815-1",
+        "savage reply 815-2",
+        "savage reply 815-3"
+    ],
+    "trigger message 816": [
+        "savage reply 816-1",
+        "savage reply 816-2",
+        "savage reply 816-3"
+    ],
+    "trigger message 817": [
+        "savage reply 817-1",
+        "savage reply 817-2",
+        "savage reply 817-3"
+    ],
+    "trigger message 818": [
+        "savage reply 818-1",
+        "savage reply 818-2",
+        "savage reply 818-3"
+    ],
+    "trigger message 819": [
+        "savage reply 819-1",
+        "savage reply 819-2",
+        "savage reply 819-3"
+    ],
+    "trigger message 820": [
+        "savage reply 820-1",
+        "savage reply 820-2",
+        "savage reply 820-3"
+    ],
+    "trigger message 821": [
+        "savage reply 821-1",
+        "savage reply 821-2",
+        "savage reply 821-3"
+    ],
+    "trigger message 822": [
+        "savage reply 822-1",
+        "savage reply 822-2",
+        "savage reply 822-3"
+    ],
+    "trigger message 823": [
+        "savage reply 823-1",
+        "savage reply 823-2",
+        "savage reply 823-3"
+    ],
+    "trigger message 824": [
+        "savage reply 824-1",
+        "savage reply 824-2",
+        "savage reply 824-3"
+    ],
+    "trigger message 825": [
+        "savage reply 825-1",
+        "savage reply 825-2",
+        "savage reply 825-3"
+    ],
+    "trigger message 826": [
+        "savage reply 826-1",
+        "savage reply 826-2",
+        "savage reply 826-3"
+    ],
+    "trigger message 827": [
+        "savage reply 827-1",
+        "savage reply 827-2",
+        "savage reply 827-3"
+    ],
+    "trigger message 828": [
+        "savage reply 828-1",
+        "savage reply 828-2",
+        "savage reply 828-3"
+    ],
+    "trigger message 829": [
+        "savage reply 829-1",
+        "savage reply 829-2",
+        "savage reply 829-3"
+    ],
+    "trigger message 830": [
+        "savage reply 830-1",
+        "savage reply 830-2",
+        "savage reply 830-3"
+    ],
+    "trigger message 831": [
+        "savage reply 831-1",
+        "savage reply 831-2",
+        "savage reply 831-3"
+    ],
+    "trigger message 832": [
+        "savage reply 832-1",
+        "savage reply 832-2",
+        "savage reply 832-3"
+    ],
+    "trigger message 833": [
+        "savage reply 833-1",
+        "savage reply 833-2",
+        "savage reply 833-3"
+    ],
+    "trigger message 834": [
+        "savage reply 834-1",
+        "savage reply 834-2",
+        "savage reply 834-3"
+    ],
+    "trigger message 835": [
+        "savage reply 835-1",
+        "savage reply 835-2",
+        "savage reply 835-3"
+    ],
+    "trigger message 836": [
+        "savage reply 836-1",
+        "savage reply 836-2",
+        "savage reply 836-3"
+    ],
+    "trigger message 837": [
+        "savage reply 837-1",
+        "savage reply 837-2",
+        "savage reply 837-3"
+    ],
+    "trigger message 838": [
+        "savage reply 838-1",
+        "savage reply 838-2",
+        "savage reply 838-3"
+    ],
+    "trigger message 839": [
+        "savage reply 839-1",
+        "savage reply 839-2",
+        "savage reply 839-3"
+    ],
+    "trigger message 840": [
+        "savage reply 840-1",
+        "savage reply 840-2",
+        "savage reply 840-3"
+    ],
+    "trigger message 841": [
+        "savage reply 841-1",
+        "savage reply 841-2",
+        "savage reply 841-3"
+    ],
+    "trigger message 842": [
+        "savage reply 842-1",
+        "savage reply 842-2",
+        "savage reply 842-3"
+    ],
+    "trigger message 843": [
+        "savage reply 843-1",
+        "savage reply 843-2",
+        "savage reply 843-3"
+    ],
+    "trigger message 844": [
+        "savage reply 844-1",
+        "savage reply 844-2",
+        "savage reply 844-3"
+    ],
+    "trigger message 845": [
+        "savage reply 845-1",
+        "savage reply 845-2",
+        "savage reply 845-3"
+    ],
+    "trigger message 846": [
+        "savage reply 846-1",
+        "savage reply 846-2",
+        "savage reply 846-3"
+    ],
+    "trigger message 847": [
+        "savage reply 847-1",
+        "savage reply 847-2",
+        "savage reply 847-3"
+    ],
+    "trigger message 848": [
+        "savage reply 848-1",
+        "savage reply 848-2",
+        "savage reply 848-3"
+    ],
+    "trigger message 849": [
+        "savage reply 849-1",
+        "savage reply 849-2",
+        "savage reply 849-3"
+    ],
+    "trigger message 850": [
+        "savage reply 850-1",
+        "savage reply 850-2",
+        "savage reply 850-3"
+    ],
+    "trigger message 851": [
+        "savage reply 851-1",
+        "savage reply 851-2",
+        "savage reply 851-3"
+    ],
+    "trigger message 852": [
+        "savage reply 852-1",
+        "savage reply 852-2",
+        "savage reply 852-3"
+    ],
+    "trigger message 853": [
+        "savage reply 853-1",
+        "savage reply 853-2",
+        "savage reply 853-3"
+    ],
+    "trigger message 854": [
+        "savage reply 854-1",
+        "savage reply 854-2",
+        "savage reply 854-3"
+    ],
+    "trigger message 855": [
+        "savage reply 855-1",
+        "savage reply 855-2",
+        "savage reply 855-3"
+    ],
+    "trigger message 856": [
+        "savage reply 856-1",
+        "savage reply 856-2",
+        "savage reply 856-3"
+    ],
+    "trigger message 857": [
+        "savage reply 857-1",
+        "savage reply 857-2",
+        "savage reply 857-3"
+    ],
+    "trigger message 858": [
+        "savage reply 858-1",
+        "savage reply 858-2",
+        "savage reply 858-3"
+    ],
+    "trigger message 859": [
+        "savage reply 859-1",
+        "savage reply 859-2",
+        "savage reply 859-3"
+    ],
+    "trigger message 860": [
+        "savage reply 860-1",
+        "savage reply 860-2",
+        "savage reply 860-3"
+    ],
+    "trigger message 861": [
+        "savage reply 861-1",
+        "savage reply 861-2",
+        "savage reply 861-3"
+    ],
+    "trigger message 862": [
+        "savage reply 862-1",
+        "savage reply 862-2",
+        "savage reply 862-3"
+    ],
+    "trigger message 863": [
+        "savage reply 863-1",
+        "savage reply 863-2",
+        "savage reply 863-3"
+    ],
+    "trigger message 864": [
+        "savage reply 864-1",
+        "savage reply 864-2",
+        "savage reply 864-3"
+    ],
+    "trigger message 865": [
+        "savage reply 865-1",
+        "savage reply 865-2",
+        "savage reply 865-3"
+    ],
+    "trigger message 866": [
+        "savage reply 866-1",
+        "savage reply 866-2",
+        "savage reply 866-3"
+    ],
+    "trigger message 867": [
+        "savage reply 867-1",
+        "savage reply 867-2",
+        "savage reply 867-3"
+    ],
+    "trigger message 868": [
+        "savage reply 868-1",
+        "savage reply 868-2",
+        "savage reply 868-3"
+    ],
+    "trigger message 869": [
+        "savage reply 869-1",
+        "savage reply 869-2",
+        "savage reply 869-3"
+    ],
+    "trigger message 870": [
+        "savage reply 870-1",
+        "savage reply 870-2",
+        "savage reply 870-3"
+    ],
+    "trigger message 871": [
+        "savage reply 871-1",
+        "savage reply 871-2",
+        "savage reply 871-3"
+    ],
+    "trigger message 872": [
+        "savage reply 872-1",
+        "savage reply 872-2",
+        "savage reply 872-3"
+    ],
+    "trigger message 873": [
+        "savage reply 873-1",
+        "savage reply 873-2",
+        "savage reply 873-3"
+    ],
+    "trigger message 874": [
+        "savage reply 874-1",
+        "savage reply 874-2",
+        "savage reply 874-3"
+    ],
+    "trigger message 875": [
+        "savage reply 875-1",
+        "savage reply 875-2",
+        "savage reply 875-3"
+    ],
+    "trigger message 876": [
+        "savage reply 876-1",
+        "savage reply 876-2",
+        "savage reply 876-3"
+    ],
+    "trigger message 877": [
+        "savage reply 877-1",
+        "savage reply 877-2",
+        "savage reply 877-3"
+    ],
+    "trigger message 878": [
+        "savage reply 878-1",
+        "savage reply 878-2",
+        "savage reply 878-3"
+    ],
+    "trigger message 879": [
+        "savage reply 879-1",
+        "savage reply 879-2",
+        "savage reply 879-3"
+    ],
+    "trigger message 880": [
+        "savage reply 880-1",
+        "savage reply 880-2",
+        "savage reply 880-3"
+    ],
+    "trigger message 881": [
+        "savage reply 881-1",
+        "savage reply 881-2",
+        "savage reply 881-3"
+    ],
+    "trigger message 882": [
+        "savage reply 882-1",
+        "savage reply 882-2",
+        "savage reply 882-3"
+    ],
+    "trigger message 883": [
+        "savage reply 883-1",
+        "savage reply 883-2",
+        "savage reply 883-3"
+    ],
+    "trigger message 884": [
+        "savage reply 884-1",
+        "savage reply 884-2",
+        "savage reply 884-3"
+    ],
+    "trigger message 885": [
+        "savage reply 885-1",
+        "savage reply 885-2",
+        "savage reply 885-3"
+    ],
+    "trigger message 886": [
+        "savage reply 886-1",
+        "savage reply 886-2",
+        "savage reply 886-3"
+    ],
+    "trigger message 887": [
+        "savage reply 887-1",
+        "savage reply 887-2",
+        "savage reply 887-3"
+    ],
+    "trigger message 888": [
+        "savage reply 888-1",
+        "savage reply 888-2",
+        "savage reply 888-3"
+    ],
+    "trigger message 889": [
+        "savage reply 889-1",
+        "savage reply 889-2",
+        "savage reply 889-3"
+    ],
+    "trigger message 890": [
+        "savage reply 890-1",
+        "savage reply 890-2",
+        "savage reply 890-3"
+    ],
+    "trigger message 891": [
+        "savage reply 891-1",
+        "savage reply 891-2",
+        "savage reply 891-3"
+    ],
+    "trigger message 892": [
+        "savage reply 892-1",
+        "savage reply 892-2",
+        "savage reply 892-3"
+    ],
+    "trigger message 893": [
+        "savage reply 893-1",
+        "savage reply 893-2",
+        "savage reply 893-3"
+    ],
+    "trigger message 894": [
+        "savage reply 894-1",
+        "savage reply 894-2",
+        "savage reply 894-3"
+    ],
+    "trigger message 895": [
+        "savage reply 895-1",
+        "savage reply 895-2",
+        "savage reply 895-3"
+    ],
+    "trigger message 896": [
+        "savage reply 896-1",
+        "savage reply 896-2",
+        "savage reply 896-3"
+    ],
+    "trigger message 897": [
+        "savage reply 897-1",
+        "savage reply 897-2",
+        "savage reply 897-3"
+    ],
+    "trigger message 898": [
+        "savage reply 898-1",
+        "savage reply 898-2",
+        "savage reply 898-3"
+    ],
+    "trigger message 899": [
+        "savage reply 899-1",
+        "savage reply 899-2",
+        "savage reply 899-3"
+    ],
+    "trigger message 900": [
+        "savage reply 900-1",
+        "savage reply 900-2",
+        "savage reply 900-3"
+    ],
+    "trigger message 901": [
+        "savage reply 901-1",
+        "savage reply 901-2",
+        "savage reply 901-3"
+    ],
+    "trigger message 902": [
+        "savage reply 902-1",
+        "savage reply 902-2",
+        "savage reply 902-3"
+    ],
+    "trigger message 903": [
+        "savage reply 903-1",
+        "savage reply 903-2",
+        "savage reply 903-3"
+    ],
+    "trigger message 904": [
+        "savage reply 904-1",
+        "savage reply 904-2",
+        "savage reply 904-3"
+    ],
+    "trigger message 905": [
+        "savage reply 905-1",
+        "savage reply 905-2",
+        "savage reply 905-3"
+    ],
+    "trigger message 906": [
+        "savage reply 906-1",
+        "savage reply 906-2",
+        "savage reply 906-3"
+    ],
+    "trigger message 907": [
+        "savage reply 907-1",
+        "savage reply 907-2",
+        "savage reply 907-3"
+    ],
+    "trigger message 908": [
+        "savage reply 908-1",
+        "savage reply 908-2",
+        "savage reply 908-3"
+    ],
+    "trigger message 909": [
+        "savage reply 909-1",
+        "savage reply 909-2",
+        "savage reply 909-3"
+    ],
+    "trigger message 910": [
+        "savage reply 910-1",
+        "savage reply 910-2",
+        "savage reply 910-3"
+    ],
+    "trigger message 911": [
+        "savage reply 911-1",
+        "savage reply 911-2",
+        "savage reply 911-3"
+    ],
+    "trigger message 912": [
+        "savage reply 912-1",
+        "savage reply 912-2",
+        "savage reply 912-3"
+    ],
+    "trigger message 913": [
+        "savage reply 913-1",
+        "savage reply 913-2",
+        "savage reply 913-3"
+    ],
+    "trigger message 914": [
+        "savage reply 914-1",
+        "savage reply 914-2",
+        "savage reply 914-3"
+    ],
+    "trigger message 915": [
+        "savage reply 915-1",
+        "savage reply 915-2",
+        "savage reply 915-3"
+    ],
+    "trigger message 916": [
+        "savage reply 916-1",
+        "savage reply 916-2",
+        "savage reply 916-3"
+    ],
+    "trigger message 917": [
+        "savage reply 917-1",
+        "savage reply 917-2",
+        "savage reply 917-3"
+    ],
+    "trigger message 918": [
+        "savage reply 918-1",
+        "savage reply 918-2",
+        "savage reply 918-3"
+    ],
+    "trigger message 919": [
+        "savage reply 919-1",
+        "savage reply 919-2",
+        "savage reply 919-3"
+    ],
+    "trigger message 920": [
+        "savage reply 920-1",
+        "savage reply 920-2",
+        "savage reply 920-3"
+    ],
+    "trigger message 921": [
+        "savage reply 921-1",
+        "savage reply 921-2",
+        "savage reply 921-3"
+    ],
+    "trigger message 922": [
+        "savage reply 922-1",
+        "savage reply 922-2",
+        "savage reply 922-3"
+    ],
+    "trigger message 923": [
+        "savage reply 923-1",
+        "savage reply 923-2",
+        "savage reply 923-3"
+    ],
+    "trigger message 924": [
+        "savage reply 924-1",
+        "savage reply 924-2",
+        "savage reply 924-3"
+    ],
+    "trigger message 925": [
+        "savage reply 925-1",
+        "savage reply 925-2",
+        "savage reply 925-3"
+    ],
+    "trigger message 926": [
+        "savage reply 926-1",
+        "savage reply 926-2",
+        "savage reply 926-3"
+    ],
+    "trigger message 927": [
+        "savage reply 927-1",
+        "savage reply 927-2",
+        "savage reply 927-3"
+    ],
+    "trigger message 928": [
+        "savage reply 928-1",
+        "savage reply 928-2",
+        "savage reply 928-3"
+    ],
+    "trigger message 929": [
+        "savage reply 929-1",
+        "savage reply 929-2",
+        "savage reply 929-3"
+    ],
+    "trigger message 930": [
+        "savage reply 930-1",
+        "savage reply 930-2",
+        "savage reply 930-3"
+    ],
+    "trigger message 931": [
+        "savage reply 931-1",
+        "savage reply 931-2",
+        "savage reply 931-3"
+    ],
+    "trigger message 932": [
+        "savage reply 932-1",
+        "savage reply 932-2",
+        "savage reply 932-3"
+    ],
+    "trigger message 933": [
+        "savage reply 933-1",
+        "savage reply 933-2",
+        "savage reply 933-3"
+    ],
+    "trigger message 934": [
+        "savage reply 934-1",
+        "savage reply 934-2",
+        "savage reply 934-3"
+    ],
+    "trigger message 935": [
+        "savage reply 935-1",
+        "savage reply 935-2",
+        "savage reply 935-3"
+    ],
+    "trigger message 936": [
+        "savage reply 936-1",
+        "savage reply 936-2",
+        "savage reply 936-3"
+    ],
+    "trigger message 937": [
+        "savage reply 937-1",
+        "savage reply 937-2",
+        "savage reply 937-3"
+    ],
+    "trigger message 938": [
+        "savage reply 938-1",
+        "savage reply 938-2",
+        "savage reply 938-3"
+    ],
+    "trigger message 939": [
+        "savage reply 939-1",
+        "savage reply 939-2",
+        "savage reply 939-3"
+    ],
+    "trigger message 940": [
+        "savage reply 940-1",
+        "savage reply 940-2",
+        "savage reply 940-3"
+    ],
+    "trigger message 941": [
+        "savage reply 941-1",
+        "savage reply 941-2",
+        "savage reply 941-3"
+    ],
+    "trigger message 942": [
+        "savage reply 942-1",
+        "savage reply 942-2",
+        "savage reply 942-3"
+    ],
+    "trigger message 943": [
+        "savage reply 943-1",
+        "savage reply 943-2",
+        "savage reply 943-3"
+    ],
+    "trigger message 944": [
+        "savage reply 944-1",
+        "savage reply 944-2",
+        "savage reply 944-3"
+    ],
+    "trigger message 945": [
+        "savage reply 945-1",
+        "savage reply 945-2",
+        "savage reply 945-3"
+    ],
+    "trigger message 946": [
+        "savage reply 946-1",
+        "savage reply 946-2",
+        "savage reply 946-3"
+    ],
+    "trigger message 947": [
+        "savage reply 947-1",
+        "savage reply 947-2",
+        "savage reply 947-3"
+    ],
+    "trigger message 948": [
+        "savage reply 948-1",
+        "savage reply 948-2",
+        "savage reply 948-3"
+    ],
+    "trigger message 949": [
+        "savage reply 949-1",
+        "savage reply 949-2",
+        "savage reply 949-3"
+    ],
+    "trigger message 950": [
+        "savage reply 950-1",
+        "savage reply 950-2",
+        "savage reply 950-3"
+    ],
+    "trigger message 951": [
+        "savage reply 951-1",
+        "savage reply 951-2",
+        "savage reply 951-3"
+    ],
+    "trigger message 952": [
+        "savage reply 952-1",
+        "savage reply 952-2",
+        "savage reply 952-3"
+    ],
+    "trigger message 953": [
+        "savage reply 953-1",
+        "savage reply 953-2",
+        "savage reply 953-3"
+    ],
+    "trigger message 954": [
+        "savage reply 954-1",
+        "savage reply 954-2",
+        "savage reply 954-3"
+    ],
+    "trigger message 955": [
+        "savage reply 955-1",
+        "savage reply 955-2",
+        "savage reply 955-3"
+    ],
+    "trigger message 956": [
+        "savage reply 956-1",
+        "savage reply 956-2",
+        "savage reply 956-3"
+    ],
+    "trigger message 957": [
+        "savage reply 957-1",
+        "savage reply 957-2",
+        "savage reply 957-3"
+    ],
+    "trigger message 958": [
+        "savage reply 958-1",
+        "savage reply 958-2",
+        "savage reply 958-3"
+    ],
+    "trigger message 959": [
+        "savage reply 959-1",
+        "savage reply 959-2",
+        "savage reply 959-3"
+    ],
+    "trigger message 960": [
+        "savage reply 960-1",
+        "savage reply 960-2",
+        "savage reply 960-3"
+    ],
+    "trigger message 961": [
+        "savage reply 961-1",
+        "savage reply 961-2",
+        "savage reply 961-3"
+    ],
+    "trigger message 962": [
+        "savage reply 962-1",
+        "savage reply 962-2",
+        "savage reply 962-3"
+    ],
+    "trigger message 963": [
+        "savage reply 963-1",
+        "savage reply 963-2",
+        "savage reply 963-3"
+    ],
+    "trigger message 964": [
+        "savage reply 964-1",
+        "savage reply 964-2",
+        "savage reply 964-3"
+    ],
+    "trigger message 965": [
+        "savage reply 965-1",
+        "savage reply 965-2",
+        "savage reply 965-3"
+    ],
+    "trigger message 966": [
+        "savage reply 966-1",
+        "savage reply 966-2",
+        "savage reply 966-3"
+    ],
+    "trigger message 967": [
+        "savage reply 967-1",
+        "savage reply 967-2",
+        "savage reply 967-3"
+    ],
+    "trigger message 968": [
+        "savage reply 968-1",
+        "savage reply 968-2",
+        "savage reply 968-3"
+    ],
+    "trigger message 969": [
+        "savage reply 969-1",
+        "savage reply 969-2",
+        "savage reply 969-3"
+    ],
+    "trigger message 970": [
+        "savage reply 970-1",
+        "savage reply 970-2",
+        "savage reply 970-3"
+    ],
+    "trigger message 971": [
+        "savage reply 971-1",
+        "savage reply 971-2",
+        "savage reply 971-3"
+    ],
+    "trigger message 972": [
+        "savage reply 972-1",
+        "savage reply 972-2",
+        "savage reply 972-3"
+    ],
+    "trigger message 973": [
+        "savage reply 973-1",
+        "savage reply 973-2",
+        "savage reply 973-3"
+    ],
+    "trigger message 974": [
+        "savage reply 974-1",
+        "savage reply 974-2",
+        "savage reply 974-3"
+    ],
+    "trigger message 975": [
+        "savage reply 975-1",
+        "savage reply 975-2",
+        "savage reply 975-3"
+    ],
+    "trigger message 976": [
+        "savage reply 976-1",
+        "savage reply 976-2",
+        "savage reply 976-3"
+    ],
+    "trigger message 977": [
+        "savage reply 977-1",
+        "savage reply 977-2",
+        "savage reply 977-3"
+    ],
+    "trigger message 978": [
+        "savage reply 978-1",
+        "savage reply 978-2",
+        "savage reply 978-3"
+    ],
+    "trigger message 979": [
+        "savage reply 979-1",
+        "savage reply 979-2",
+        "savage reply 979-3"
+    ],
+    "trigger message 980": [
+        "savage reply 980-1",
+        "savage reply 980-2",
+        "savage reply 980-3"
+    ],
+    "trigger message 981": [
+        "savage reply 981-1",
+        "savage reply 981-2",
+        "savage reply 981-3"
+    ],
+    "trigger message 982": [
+        "savage reply 982-1",
+        "savage reply 982-2",
+        "savage reply 982-3"
+    ],
+    "trigger message 983": [
+        "savage reply 983-1",
+        "savage reply 983-2",
+        "savage reply 983-3"
+    ],
+    "trigger message 984": [
+        "savage reply 984-1",
+        "savage reply 984-2",
+        "savage reply 984-3"
+    ],
+    "trigger message 985": [
+        "savage reply 985-1",
+        "savage reply 985-2",
+        "savage reply 985-3"
+    ],
+    "trigger message 986": [
+        "savage reply 986-1",
+        "savage reply 986-2",
+        "savage reply 986-3"
+    ],
+    "trigger message 987": [
+        "savage reply 987-1",
+        "savage reply 987-2",
+        "savage reply 987-3"
+    ],
+    "trigger message 988": [
+        "savage reply 988-1",
+        "savage reply 988-2",
+        "savage reply 988-3"
+    ],
+    "trigger message 989": [
+        "savage reply 989-1",
+        "savage reply 989-2",
+        "savage reply 989-3"
+    ],
+    "trigger message 990": [
+        "savage reply 990-1",
+        "savage reply 990-2",
+        "savage reply 990-3"
+    ],
+    "trigger message 991": [
+        "savage reply 991-1",
+        "savage reply 991-2",
+        "savage reply 991-3"
+    ],
+    "trigger message 992": [
+        "savage reply 992-1",
+        "savage reply 992-2",
+        "savage reply 992-3"
+    ],
+    "trigger message 993": [
+        "savage reply 993-1",
+        "savage reply 993-2",
+        "savage reply 993-3"
+    ],
+    "trigger message 994": [
+        "savage reply 994-1",
+        "savage reply 994-2",
+        "savage reply 994-3"
+    ],
+    "trigger message 995": [
+        "savage reply 995-1",
+        "savage reply 995-2",
+        "savage reply 995-3"
+    ],
+    "trigger message 996": [
+        "savage reply 996-1",
+        "savage reply 996-2",
+        "savage reply 996-3"
+    ],
+    "trigger message 997": [
+        "savage reply 997-1",
+        "savage reply 997-2",
+        "savage reply 997-3"
+    ],
+    "trigger message 998": [
+        "savage reply 998-1",
+        "savage reply 998-2",
+        "savage reply 998-3"
+    ],
+    "trigger message 999": [
+        "savage reply 999-1",
+        "savage reply 999-2",
+        "savage reply 999-3"
+    ]
+}
