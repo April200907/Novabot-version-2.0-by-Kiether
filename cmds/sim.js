@@ -19,7 +19,7 @@ module.exports = {
     try {
       data = JSON.parse(fs.readFileSync(DAN_PATH, "utf-8"));
     } catch (err) {
-      return api.sendMessage("❌ Can't upload from AI memory file.", threadID, messageID);
+      return api.sendMessage("❌ Can't fetch from AI memory file.", threadID, messageID);
     }
 
     let response;
