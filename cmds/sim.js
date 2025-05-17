@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const DAN_PATH = path.join(__dirname, "..", "cache", "DAN", "dan.json");
+const DAN_PATH = path.join(__dirname, "..", "cache", "DAN", "dan_25mb.json");
 
 module.exports = {
   name: "sim",
