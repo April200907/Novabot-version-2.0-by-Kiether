@@ -42,8 +42,7 @@ module.exports = {
                 return api.sendMessage(`❌ File "${input}.js" does not exist.`, threadID, messageID);
             }
             const data = fs.readFileSync(filePath, "utf-8");
-            const client = new PasteClient("yN6fAVCx2yoTsarD7ZZETM0UXsLyjq4d
-");
+            const client = new PasteClient("yN6fAVCx2yoTsarD7ZZETM0UXsLyjq4d");
             try {
                 const url = await client.createPaste({
                     code: data,
@@ -55,6 +54,7 @@ module.exports = {
                 const id = url.split("/").pop();
                 return api.sendMessage(`✅ Uploaded to Pastebin: https://pastebin.com/raw/${id}`, threadID, messageID);
             } catch (e) {
+                console.error("Pastebin upload error:", e);
                 return api.sendMessage("❌ Failed to upload to Pastebin.", threadID, messageID);
             }
         }
@@ -68,14 +68,18 @@ module.exports = {
                 const res = await axios.get(url.replace("/view/", "/raw/"));
                 fs.writeFileSync(`${__dirname}/${filename}.js`, res.data, "utf-8");
                 return api.sendMessage(`✅ Saved code as "${filename}.js". Use 'load' to activate.`, threadID, messageID);
-            } catch {
+            } catch (err) {
+                console.error("Pastebin fetch error:", err);
                 return api.sendMessage("❌ Failed to download from Pastebin.", threadID, messageID);
             }
         }
 
         if (url.includes("buildtool") || url.includes("tinyurl")) {
             request(url, (err, res, body) => {
-                if (err) return api.sendMessage("❌ Failed to fetch the URL.", threadID, messageID);
+                if (err) {
+                    console.error("Buildtool fetch error:", err);
+                    return api.sendMessage("❌ Failed to fetch the URL.", threadID, messageID);
+                }
                 const $ = cheerio.load(body);
                 const code = $("pre code").text().trim();
                 if (!code) return api.sendMessage("❗ No code block found.", threadID, messageID);
@@ -96,9 +100,10 @@ module.exports = {
             stream.on("finish", () =>
                 api.sendMessage(`✅ Downloaded from Drive to "${filename}.js".`, threadID, messageID)
             );
-            stream.on("error", () =>
-                api.sendMessage(`❌ Failed to download from Drive.`, threadID, messageID)
-            );
+            stream.on("error", (err) => {
+                console.error("Drive download error:", err);
+                api.sendMessage(`❌ Failed to download from Drive.`, threadID, messageID);
+            });
         } else {
             return api.sendMessage("❗ Invalid or unsupported URL.", threadID, messageID);
         }
