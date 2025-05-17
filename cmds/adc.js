@@ -7,84 +7,78 @@ const { PasteClient } = require("pastebin-api");
 
 module.exports = {
     name: "adc",
-    version: "1.0.0",
-    description: "Apply code from buildtooldev, pastebin, or GDrive",
+    version: "1.0.1",
+    description: "Upload local code or fetch from URL (Pastebin, Buildtool, GDrive)",
     commandCategory: "admin",
-    usages: "[reply with link or provide file name]",
-    cooldown: 0,
+    usages: "[filename or URL]",
+    cooldown: 3,
     admin: true,
-    dependencies: {
-        "pastebin-api": "",
-        "cheerio": "",
-        "request": ""
-    },
 
     execute: async function ({ api, event, args }) {
         const { threadID, messageID, messageReply, type } = event;
 
         let input = args[0];
         if (type === "message_reply" && messageReply?.body) {
-            input = messageReply.body;
+            input = messageReply.body.trim();
         }
 
         if (!input) {
-            return api.sendMessage("❗ Please reply with a link or provide a file name.", threadID, messageID);
+            return api.sendMessage("❗ Reply with a Pastebin/Buildtool/Drive link or a file name (without .js)", threadID, messageID);
         }
 
         const urlRegex = /https?:\/\/[^\s]+/;
         const urlMatch = input.match(urlRegex);
         const isURL = !!urlMatch;
 
-        // Upload local file to Pastebin
+        // If not a URL, try uploading local file to Pastebin
         if (!isURL) {
             const filePath = `${__dirname}/${input}.js`;
             if (!fs.existsSync(filePath)) {
                 return api.sendMessage(`❌ File "${input}.js" does not exist.`, threadID, messageID);
             }
-            const data = fs.readFileSync(filePath, "utf-8");
-            const client = new PasteClient("yN6fAVCx2yoTsarD7ZZETM0UXsLyjq4d");
+
+            const content = fs.readFileSync(filePath, "utf-8");
+            const client = new PasteClient("eFk_nJ5A-5FzHmgk_t30MQ5iJv_o7xhu");
+
             try {
                 const url = await client.createPaste({
-                    code: data,
-                    expireDate: "N",
-                    format: "javascript",
+                    code: content,
                     name: input,
+                    format: "javascript",
+                    expireDate: "N",
                     publicity: 1
                 });
+
                 const id = url.split("/").pop();
-                return api.sendMessage(`✅ Uploaded to Pastebin: https://pastebin.com/raw/${id}`, threadID, messageID);
+                return api.sendMessage(`✅ Uploaded: https://pastebin.com/raw/${id}`, threadID, messageID);
             } catch (e) {
-                console.error("Pastebin upload error:", e);
-                return api.sendMessage("❌ Failed to upload to Pastebin.", threadID, messageID);
+                return api.sendMessage("❌ Failed to upload to Pastebin. Check your API key or internet.", threadID, messageID);
             }
         }
 
-        // If URL, handle download logic
+        // Handle URL downloads
         const url = urlMatch[0];
         const filename = args[1] || "downloaded";
 
         if (url.includes("pastebin")) {
             try {
-                const res = await axios.get(url.replace("/view/", "/raw/"));
+                const raw = url.replace("/view/", "/raw/").replace("pastebin.com/", "pastebin.com/raw/");
+                const res = await axios.get(raw);
                 fs.writeFileSync(`${__dirname}/${filename}.js`, res.data, "utf-8");
-                return api.sendMessage(`✅ Saved code as "${filename}.js". Use 'load' to activate.`, threadID, messageID);
-            } catch (err) {
-                console.error("Pastebin fetch error:", err);
+                return api.sendMessage(`✅ Saved as "${filename}.js". Use 'load' to activate.`, threadID, messageID);
+            } catch {
                 return api.sendMessage("❌ Failed to download from Pastebin.", threadID, messageID);
             }
         }
 
         if (url.includes("buildtool") || url.includes("tinyurl")) {
             request(url, (err, res, body) => {
-                if (err) {
-                    console.error("Buildtool fetch error:", err);
-                    return api.sendMessage("❌ Failed to fetch the URL.", threadID, messageID);
-                }
+                if (err) return api.sendMessage("❌ Failed to fetch the URL.", threadID, messageID);
                 const $ = cheerio.load(body);
                 const code = $("pre code").text().trim();
                 if (!code) return api.sendMessage("❗ No code block found.", threadID, messageID);
                 fs.writeFileSync(`${__dirname}/${filename}.js`, code, "utf-8");
-                return api.sendMessage(`✅ Saved code as "${filename}.js". Use 'load' to activate.`, threadID, messageID);
+                return api.sendMessage(`✅ Saved as "${filename}.js". Use 'load' to activate.`, threadID, messageID);
             });
             return;
         }
@@ -97,15 +91,15 @@ module.exports = {
             const outputPath = resolve(__dirname, `${filename}.js`);
             const writer = fs.createWriteStream(outputPath);
             const stream = request(downloadUrl).pipe(writer);
+
             stream.on("finish", () =>
                 api.sendMessage(`✅ Downloaded from Drive to "${filename}.js".`, threadID, messageID)
             );
-            stream.on("error", (err) => {
-                console.error("Drive download error:", err);
-                api.sendMessage(`❌ Failed to download from Drive.`, threadID, messageID);
-            });
+            stream.on("error", () =>
+                api.sendMessage(`❌ Failed to download from Drive.`, threadID, messageID)
+            );
         } else {
-            return api.sendMessage("❗ Invalid or unsupported URL.", threadID, messageID);
+            return api.sendMessage("❗ Unsupported or invalid URL format.", threadID, messageID);
         }
     }
 };
