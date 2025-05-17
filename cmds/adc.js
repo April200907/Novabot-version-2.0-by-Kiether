@@ -46,7 +46,7 @@ module.exports = {
                 return api.sendMessage("❌ File is too short or empty to upload.", threadID, messageID);
             }
 
-            const pastebinKey = "eFk_nJ5A-5FzHmgk_t30MQ5iJv_o7xhu";
+            const pastebinKey = "https://adc-api.onrender.com";
             try {
                 const payload = new URLSearchParams();
                 payload.append("api_dev_key", pastebinKey);
