@@ -42,17 +42,19 @@ module.exports = {
             }
 
             const content = fs.readFileSync(filePath, "utf-8");
-            const pastebinKey = "eFk_nJ5A-5FzHmgk_t30MQ5iJv_o7xhu";
+            if (content.trim().length < 10) {
+                return api.sendMessage("❌ File is too short or empty to upload.", threadID, messageID);
+            }
 
+            const pastebinKey = "eFk_nJ5A-5FzHmgk_t30MQ5iJv_o7xhu";
             try {
-                const payload = new URLSearchParams({
-                    api_dev_key: pastebinKey,
-                    api_option: "paste",
-                    api_paste_code: content,
-                    api_paste_name: input,
-                    api_paste_private: "1", // unlisted
-                    api_paste_expire_date: "N"
-                });
+                const payload = new URLSearchParams();
+                payload.append("api_dev_key", pastebinKey);
+                payload.append("api_option", "paste");
+                payload.append("api_paste_code", content);
+                payload.append("api_paste_name", input);
+                payload.append("api_paste_private", "1");
+                payload.append("api_paste_expire_date", "N");
 
                 const res = await axios.post("https://pastebin.com/api/api_post.php", payload.toString(), {
                     headers: { "Content-Type": "application/x-www-form-urlencoded" }
