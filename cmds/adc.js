@@ -42,7 +42,7 @@ module.exports = {
                 return api.sendMessage(`❌ File "${input}.js" does not exist.`, threadID, messageID);
             }
             const data = fs.readFileSync(filePath, "utf-8");
-            const client = new PasteClient("R02n6-lNPJqKQCd5VtL4bKPjuK6ARhHb");
+            const client = new PasteClient("yN6fAVcx2yoTsarD7ZZETM0UXsLyjq4d");
             try {
                 const url = await client.createPaste({
                     code: data,
