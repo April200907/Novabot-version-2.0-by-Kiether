@@ -1,5 +1,4 @@
 const axios = require('axios');
-const { sendMessage } = require('../handles/sendMessage');
 
 function splitMessageIntoChunks(message, chunkSize) {
   const chunks = [];
