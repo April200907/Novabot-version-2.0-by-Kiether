@@ -15,7 +15,7 @@ module.exports = {
  let prompt = args.join(" ");
  let imageUrl = null;
 /// Note: Please dont modify this command to avoid malnufunction
- let apiUrl = `https://autobot.mark-projects.site/api/gemini-2.5-pro-vison?ask=${encodeURIComponent(prompt)}`;
+ let apiUrl = `https://kaiz-apis.gleeze.com/api/gemini-vision?q=hi&uid=100075247455712&imageUrl=&apikey=8ac48eba-be21-49d9-8db4-b4db24a7832a`;
 
  if (event.messageReply && event.messageReply.attachments.length > 0) {
  const attachment = event.messageReply.attachments[0];
