@@ -1,9 +1,10 @@
 module.exports = {
-  name: 'unsend',
-  description: 'Unsend the replied message.',
-  author:'April', 
-  usePrefix: false, 
-  admin:false, 
+  name: "unsend",
+  version: "1.0",
+  description: "unsend bot message by replying to the message.",
+  author:"April", 
+  usePrefix: true,
+  admin: true,
   async execute(event, api) {
     const { messageReply, threadID, senderID } = event;
 
