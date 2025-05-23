@@ -3,8 +3,8 @@ module.exports = {
   version: "1.0",
   description: "unsend bot message by replying to the message.",
   author:"April", 
-  usePrefix: true,
-  admin: true,
+  usePrefix: false,
+  admin: false,
   async execute(event, api) {
     const { messageReply, threadID, senderID } = event;
 
