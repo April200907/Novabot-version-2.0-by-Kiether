@@ -31,8 +31,8 @@ const loadConfig = (filePath) => {
     }
 };
 
-const config = loadConfig("./config.json");
-const appState = loadConfig("./appState.json");
+const config = loadConfig("./nova.json");
+const appState = loadConfig("./novastate.json");
 const botPrefix = config.prefix || "/";
 const cooldowns = new Map();
 const detectedURLs = new Set();
