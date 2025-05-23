@@ -1,27 +1,27 @@
 module.exports = {
   name: "unsend",
   version: "1.0",
-  description: "unsend bot message by replying to the message.",
-  author:"April", 
+  description: "Unsend bot message by replying to the message.",
+  author: "April",
   usePrefix: false,
   admin: false,
-  async execute(event, api) {
+
+  async execute({ api, event }) {
     const { messageReply, threadID, senderID } = event;
 
-    if (!messageReply || !messageReply.messageID) {
+    if (!messageReply || messageReply.senderID !== global.botID) {
       return api.sendMessage(
-        '❌: 𝗥𝗲𝗽𝗹𝘆 𝘁𝗼 𝗮 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝘆𝗼𝘂 𝘄𝗮𝗻𝘁 𝘁𝗼 𝘂𝗻𝘀𝗲𝗻𝗱.',
-        threadID,
-        senderID
+        "⚠️ Please reply to a message sent by the bot that you want to unsend.",
+        threadID
       );
     }
 
     try {
       await api.unsendMessage(messageReply.messageID);
-      api.sendMessage('✅: 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝘀𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆 𝘂𝗻𝘀𝗲𝗻𝘁!', threadID);
+      return api.sendMessage("✅ Message has been unsent.", threadID);
     } catch (err) {
-      console.error('Unsend Error:', err);
-      api.sendMessage('❌: 𝗙𝗮𝗶𝗹𝗲𝗱 𝘁𝗼 𝘂𝗻𝘀𝗲𝗻𝗱 𝘁𝗵𝗲 𝗺𝗲𝘀𝘀𝗮𝗴𝗲.', threadID);
+      console.error("Unsend error:", err);
+      return api.sendMessage("❌ Failed to unsend the message.", threadID);
     }
   }
 };
