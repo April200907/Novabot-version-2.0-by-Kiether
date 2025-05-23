@@ -1,0 +1,20 @@
+{
+  "version": "Novabot 2.0",
+  "botName": "Kiether Bot",
+  "prefix": "!",
+  "adminName": "April Manalo",
+  "uid": "100075247455712",
+  "ownerID": "100075247455712",
+  "autoRestart": true,
+  "autoGreet": false,
+  "disabledCommands": [
+    "",
+    "",
+    ""
+  ],
+  "ADD_FUNCTION": true,
+  "DEL_FUNCTION": true,
+  "ADMINBOT": [
+    "100075247455712"
+  ]
+}
